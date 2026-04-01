@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Risk Brief Intelligence Pipeline">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7cc8ff"/><stop offset="100%" stop-color="#2f80ff"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd4a6"/><stop offset="100%" stop-color="#ff8a1f"/>
+    </linearGradient>
+    <filter id="glowBlue" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowOrange" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:40px;font-weight:700;fill:#11263c}
+      .subtitle{font-size:20px;fill:#5b7288}
+      .label{font-size:22px;font-weight:700;fill:#11263c}
+      .small{font-size:16px;fill:#60788f}
+      .card{fill:#ffffff;stroke:#e6eef6;stroke-width:2}
+      .flow{fill:none;stroke-linecap:round;stroke-width:5;stroke-dasharray:10 14;animation:dash 3.2s linear infinite}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      .float{animation:float 6s ease-in-out infinite}
+      .spinSlow{animation:spin 10s linear infinite; transform-origin:center}
+      .glowBlue{filter:url(#glowBlue)}
+      .glowOrange{filter:url(#glowOrange)}
+      .bar{animation:bar 3s ease-in-out infinite}
+      .scan{animation:scan 2.8s ease-in-out infinite}
+      .gate{animation:gate 2.8s ease-in-out infinite}
+      .blinkRed{animation:blinkRed 1.5s ease-in-out infinite}
+      .token{animation:breathe 2.6s ease-in-out infinite}
+      .grid{stroke:#ebf2f8;stroke-width:1}
+      @keyframes dash{to{stroke-dashoffset:-120}}
+      @keyframes pulse{50%{transform:scale(1.05)}}
+      @keyframes float{50%{transform:translateY(-8px)}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes bar{50%{transform:scaleX(1.25)}}
+      @keyframes scan{50%{transform:translateX(70px)}}
+      @keyframes gate{50%{transform:translateX(12px)}}
+      @keyframes blinkRed{50%{opacity:.25}}
+      @keyframes breathe{50%{transform:scale(1.07)}}
+    </style>
+
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g>
+    <path class="grid" d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600"/>
+    <path class="grid" d="M120 0V900M320 0V900M520 0V900M720 0V900M920 0V900M1120 0V900M1320 0V900M1520 0V900"/>
+  </g>
+  <text x="95" y="90" class="title">Risk Brief Intelligence Pipeline</text>
+  <text x="95" y="125" class="subtitle">Signal input → scenario engine → risk scoring → brief generator → human action</text>
+  
+<rect x="70" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="98" y="298" class="label">Signal Input</text>
+<text x="98" y="332" class="small">permissions</text>
+<text x="98" y="358" class="small">network</text>
+<text x="98" y="384" class="small">user context</text>
+<rect x="350" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="378" y="298" class="label">Scenario Engine</text>
+<text x="378" y="332" class="small">classify risk state</text>
+<rect x="630" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="658" y="298" class="label">Risk Scoring</text>
+<text x="658" y="332" class="small">severity</text>
+<text x="658" y="358" class="small">urgency</text>
+<rect x="910" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="938" y="298" class="label">Brief Generator</text>
+<text x="938" y="332" class="small">concise safety summary</text>
+<rect x="1190" y="250" width="250" height="180" rx="28" class="card"/>
+<text x="1218" y="298" class="label">Human Action</text>
+<text x="1218" y="332" class="small">review</text>
+<text x="1218" y="358" class="small">decide</text>
+<text x="1218" y="384" class="small">respond</text>
+
+<path class="flow" stroke="url(#blue)" d="M290 340 C315 340,325 340,350 340"/>
+<path class="flow" stroke="url(#orange)" d="M570 340 C595 340,605 340,630 340"/>
+<path class="flow" stroke="url(#blue)" d="M850 340 C875 340,885 340,910 340"/>
+<path class="flow" stroke="url(#orange)" d="M1130 340 C1155 340,1165 340,1190 340"/>
+
+<g transform="translate(135 320)" class="float">
+  <circle cx="0" cy="0" r="10" fill="#2f80ff"/>
+  <circle cx="36" cy="-22" r="10" fill="#ff8a1f"/>
+  <circle cx="72" cy="12" r="10" fill="#8dcaff"/>
+  <circle cx="102" cy="-8" r="10" fill="#2f80ff"/>
+</g>
+<g transform="translate(430 340)" class="pulse">
+  <circle cx="0" cy="0" r="40" fill="#eef6ff"/><circle cx="0" cy="0" r="15" fill="#2f80ff"/>
+</g>
+<g transform="translate(710 340)">
+  <circle cx="0" cy="0" r="44" fill="#fff3e6"/>
+  <circle cx="0" cy="0" r="30" fill="none" stroke="#ffd5ab" stroke-width="10"/>
+  <path d="M0 0 L20 -18" stroke="#ff8a1f" stroke-width="6" stroke-linecap="round" class="pulse"/>
+  <circle cx="0" cy="0" r="6" fill="#ff8a1f"/>
+</g>
+<g transform="translate(985 340)" class="float">
+  <rect x="-60" y="-36" width="120" height="72" rx="16" fill="#eef6ff" stroke="#dcecff"/>
+  <rect x="-42" y="-10" width="84" height="8" rx="4" fill="#b9dfff"/>
+  <rect x="-42" y="10" width="64" height="8" rx="4" fill="#ffd6ad"/>
+</g>
+<g transform="translate(1315 340)" class="pulse glowBlue">
+  <circle cx="0" cy="0" r="30" fill="#eef6ff"/><circle cx="0" cy="0" r="12" fill="#2f80ff"/>
+</g>
+
+</svg>

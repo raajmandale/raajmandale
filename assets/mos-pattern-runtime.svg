@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">M-OS Pattern Compute Animated Diagram</title>
+  <desc id="desc">Animated graph nodes route toward CPU and GPU blocks, representing deterministic pattern compute.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blueLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7cc7ff"/>
+      <stop offset="100%" stop-color="#2f80ff"/>
+    </linearGradient>
+    <linearGradient id="orangeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd3a1"/>
+      <stop offset="100%" stop-color="#ff8a1f"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="routeA" d="M280 230 C480 220, 560 290, 720 330" />
+    <path id="routeB" d="M250 430 C450 420, 560 430, 720 430" />
+    <path id="routeC" d="M290 640 C470 610, 560 560, 720 520" />
+    <path id="toCPU" d="M870 380 C980 360, 1060 340, 1170 320" />
+    <path id="toGPU" d="M870 470 C980 500, 1060 560, 1170 590" />
+    <style>
+      :root{
+        --blue:#2f80ff;
+        --orange:#ff8a1f;
+        --ink:#11263c;
+        --muted:#5b7288;
+        --grid:#e9f1f8;
+      }
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .fadeUp{animation:fadeUp 1.4s ease both}
+      .floatA{animation:floatA 7s ease-in-out infinite}
+      .floatB{animation:floatB 6s ease-in-out infinite}
+      .pulseBlue{animation:pulseBlue 2.8s ease-in-out infinite}
+      .pulseOrange{animation:pulseOrange 3.1s ease-in-out infinite}
+      .route{
+        fill:none; stroke-linecap:round; stroke-width:4;
+        stroke-dasharray:8 12; opacity:.65;
+        animation:dash 4s linear infinite;
+      }
+      .route2{
+        fill:none; stroke-linecap:round; stroke-width:5;
+        stroke-dasharray:10 16; opacity:.9;
+        animation:dash 3.2s linear infinite;
+      }
+      .spark{offset-rotate:auto; animation:travel 3.6s linear infinite}
+      .spark.s2{animation-duration:4.4s; animation-delay:-1.8s}
+      .spark.s3{animation-duration:5.1s; animation-delay:-2.7s}
+      .spark.s4{animation-duration:3.8s; animation-delay:-1.2s}
+      .panelGlow{animation:panelGlow 4s ease-in-out infinite}
+      .halo{animation:halo 3.4s ease-out infinite}
+      .scan{animation:scan 3.2s linear infinite}
+      @keyframes dash{to{stroke-dashoffset:-120}}
+      @keyframes floatA{50%{transform:translateY(-10px)}}
+      @keyframes floatB{50%{transform:translateY(10px)}}
+      @keyframes pulseBlue{50%{r:12; opacity:1}}
+      @keyframes pulseOrange{50%{r:14; opacity:1}}
+      @keyframes panelGlow{50%{transform:translateY(-4px)}}
+      @keyframes halo{0%{transform:scale(.8);opacity:.55}100%{transform:scale(1.6);opacity:0}}
+      @keyframes scan{0%{transform:translateX(-10px)}50%{transform:translateX(220px)}100%{transform:translateX(-10px)}}
+      @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes travel{from{offset-distance:0%}to{offset-distance:100%}}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity=".9">
+    <g stroke="#e7eff7" stroke-width="1">
+      <path d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600"/>
+      <path d="M120 0V900M320 0V900M520 0V900M720 0V900M920 0V900M1120 0V900M1320 0V900M1520 0V900"/>
+    </g>
+  </g>
+
+  <g class="fadeUp">
+    <text x="110" y="95" font-size="42" font-weight="700" fill="#11263c">M-OS Runtime</text>
+    <text x="110" y="132" font-size="22" fill="#5b7288">Pattern graph activation → routed execution → deterministic output</text>
+  </g>
+
+  <g transform="translate(95 180)">
+    <rect x="0" y="0" width="420" height="560" rx="28" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="34" y="48" font-size="24" font-weight="700" fill="#11263c">Pattern Graph</text>
+    <text x="34" y="78" font-size="18" fill="#5b7288">dynamic nodes + structured links</text>
+
+    <path class="route" stroke="url(#blueLine)" d="M90 90 L200 150 L130 250 L250 320 L160 430 L290 470"/>
+    <path class="route" stroke="url(#orangeLine)" d="M255 120 L330 220 L245 290 L345 390 L275 500"/>
+    <path class="route" stroke="url(#blueLine)" d="M90 430 L180 520 L320 470"/>
+
+    <g class="floatA" transform="translate(0 0)">
+      <circle cx="90" cy="90" r="10" fill="#2f80ff" filter="url(#tinyGlow)"/>
+      <circle cx="200" cy="150" r="10" fill="#85c7ff"/>
+      <circle cx="130" cy="250" r="9" fill="#ff8a1f" filter="url(#tinyGlow)"/>
+      <circle cx="250" cy="320" r="12" fill="#2f80ff"/>
+      <circle cx="160" cy="430" r="9" fill="#8ad3ff"/>
+      <circle cx="290" cy="470" r="13" fill="#ff8a1f"/>
+      <circle cx="330" cy="220" r="12" fill="#ffb361"/>
+      <circle cx="245" cy="290" r="8" fill="#2f80ff"/>
+      <circle cx="345" cy="390" r="10" fill="#2f80ff"/>
+      <circle cx="275" cy="500" r="12" fill="#ff8a1f"/>
+      <circle cx="180" cy="520" r="10" fill="#2f80ff"/>
+      <circle cx="320" cy="470" r="10" fill="#89c8ff"/>
+    </g>
+
+    <g class="floatB" opacity=".9">
+      <circle cx="90" cy="90" r="18" fill="none" stroke="#b7dbff" stroke-width="2" class="halo"/>
+      <circle cx="130" cy="250" r="18" fill="none" stroke="#ffd3a1" stroke-width="2" class="halo"/>
+      <circle cx="250" cy="320" r="20" fill="none" stroke="#b7dbff" stroke-width="2" class="halo"/>
+      <circle cx="290" cy="470" r="20" fill="none" stroke="#ffd3a1" stroke-width="2" class="halo"/>
+    </g>
+  </g>
+
+  <g transform="translate(520 180)">
+    <rect x="0" y="200" width="390" height="180" rx="28" fill="#ffffff" stroke="#e8eef5" class="panelGlow"/>
+    <text x="36" y="250" font-size="26" font-weight="700" fill="#11263c">Routing Core</text>
+    <text x="36" y="286" font-size="18" fill="#5b7288">pattern → lane selection → bounded execution</text>
+    <rect x="36" y="320" width="260" height="12" rx="6" fill="#eef5fb"/>
+    <rect x="36" y="320" width="110" height="12" rx="6" fill="#2f80ff">
+      <animate attributeName="width" values="70;220;110;190;70" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="36" y="346" width="230" height="12" rx="6" fill="#eef5fb"/>
+    <rect x="36" y="346" width="150" height="12" rx="6" fill="#ff8a1f">
+      <animate attributeName="width" values="90;170;140;200;90" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <use href="#routeA" class="route2" stroke="url(#blueLine)"/>
+  <use href="#routeB" class="route2" stroke="url(#orangeLine)"/>
+  <use href="#routeC" class="route2" stroke="url(#blueLine)"/>
+
+  <g class="spark" style="offset-path:path('M280 230 C480 220, 560 290, 720 330');">
+    <circle r="8" fill="#2f80ff" filter="url(#softGlow)"/>
+  </g>
+  <g class="spark s2" style="offset-path:path('M250 430 C450 420, 560 430, 720 430');">
+    <circle r="8" fill="#ff8a1f" filter="url(#softGlow)"/>
+  </g>
+  <g class="spark s3" style="offset-path:path('M290 640 C470 610, 560 560, 720 520');">
+    <circle r="8" fill="#2f80ff" filter="url(#softGlow)"/>
+  </g>
+
+  <use href="#toCPU" class="route2" stroke="url(#blueLine)"/>
+  <use href="#toGPU" class="route2" stroke="url(#orangeLine)"/>
+  <g class="spark s4" style="offset-path:path('M870 380 C980 360, 1060 340, 1170 320');">
+    <circle r="8" fill="#2f80ff" filter="url(#softGlow)"/>
+  </g>
+  <g class="spark s2" style="offset-path:path('M870 470 C980 500, 1060 560, 1170 590');">
+    <circle r="8" fill="#ff8a1f" filter="url(#softGlow)"/>
+  </g>
+
+  <g transform="translate(1150 210)">
+    <g class="panelGlow">
+      <rect x="0" y="0" width="270" height="180" rx="30" fill="#ffffff" stroke="#d9e7f5"/>
+      <text x="34" y="55" font-size="24" font-weight="700" fill="#11263c">CPU Lane</text>
+      <text x="34" y="87" font-size="18" fill="#5b7288">control + logic</text>
+      <rect x="32" y="112" width="200" height="36" rx="18" fill="#eff6ff"/>
+      <g>
+        <rect x="36" y="116" width="44" height="28" rx="14" fill="#2f80ff"/>
+        <rect x="90" y="116" width="44" height="28" rx="14" fill="#8cc8ff"/>
+        <rect x="144" y="116" width="44" height="28" rx="14" fill="#2f80ff"/>
+        <rect x="198" y="116" width="28" height="28" rx="14" fill="#8cc8ff"/>
+      </g>
+      <rect x="30" y="160" width="210" height="6" rx="3" fill="#d7ebff"/>
+      <rect x="30" y="160" width="70" height="6" rx="3" fill="#2f80ff" class="scan"/>
+    </g>
+
+    <g class="panelGlow" transform="translate(0 240)">
+      <rect x="0" y="0" width="270" height="180" rx="30" fill="#ffffff" stroke="#ffe5cb"/>
+      <text x="34" y="55" font-size="24" font-weight="700" fill="#11263c">GPU Lane</text>
+      <text x="34" y="87" font-size="18" fill="#5b7288">parallel pattern execution</text>
+      <g transform="translate(34 112)">
+        <rect x="0" y="0" width="28" height="28" rx="8" fill="#ff8a1f"/>
+        <rect x="38" y="0" width="28" height="28" rx="8" fill="#ffc27d"/>
+        <rect x="76" y="0" width="28" height="28" rx="8" fill="#ff8a1f"/>
+        <rect x="114" y="0" width="28" height="28" rx="8" fill="#ffc27d"/>
+        <rect x="152" y="0" width="28" height="28" rx="8" fill="#ff8a1f"/>
+      </g>
+      <rect x="30" y="160" width="210" height="6" rx="3" fill="#ffe8cf"/>
+      <rect x="30" y="160" width="70" height="6" rx="3" fill="#ff8a1f">
+        <animate attributeName="x" values="30;170;30" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <g transform="translate(1080 778)" class="fadeUp">
+    <text x="0" y="0" font-size="18" fill="#5b7288">Clean SVG • README-ready • white / blue / orange lab style</text>
+  </g>
+</svg>

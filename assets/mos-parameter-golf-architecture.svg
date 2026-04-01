@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Context Compression Flow">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7cc8ff"/><stop offset="100%" stop-color="#2f80ff"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd4a6"/><stop offset="100%" stop-color="#ff8a1f"/>
+    </linearGradient>
+    <filter id="glowBlue" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowOrange" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:40px;font-weight:700;fill:#11263c}
+      .subtitle{font-size:20px;fill:#5b7288}
+      .label{font-size:22px;font-weight:700;fill:#11263c}
+      .small{font-size:16px;fill:#60788f}
+      .card{fill:#ffffff;stroke:#e6eef6;stroke-width:2}
+      .flow{fill:none;stroke-linecap:round;stroke-width:5;stroke-dasharray:10 14;animation:dash 3.2s linear infinite}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      .float{animation:float 6s ease-in-out infinite}
+      .spinSlow{animation:spin 10s linear infinite; transform-origin:center}
+      .glowBlue{filter:url(#glowBlue)}
+      .glowOrange{filter:url(#glowOrange)}
+      .bar{animation:bar 3s ease-in-out infinite}
+      .scan{animation:scan 2.8s ease-in-out infinite}
+      .gate{animation:gate 2.8s ease-in-out infinite}
+      .blinkRed{animation:blinkRed 1.5s ease-in-out infinite}
+      .token{animation:breathe 2.6s ease-in-out infinite}
+      .grid{stroke:#ebf2f8;stroke-width:1}
+      @keyframes dash{to{stroke-dashoffset:-120}}
+      @keyframes pulse{50%{transform:scale(1.05)}}
+      @keyframes float{50%{transform:translateY(-8px)}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes bar{50%{transform:scaleX(1.25)}}
+      @keyframes scan{50%{transform:translateX(70px)}}
+      @keyframes gate{50%{transform:translateX(12px)}}
+      @keyframes blinkRed{50%{opacity:.25}}
+      @keyframes breathe{50%{transform:scale(1.07)}}
+    </style>
+
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g>
+    <path class="grid" d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600"/>
+    <path class="grid" d="M120 0V900M320 0V900M520 0V900M720 0V900M920 0V900M1120 0V900M1320 0V900M1520 0V900"/>
+  </g>
+  <text x="95" y="90" class="title">Context Compression Flow</text>
+  <text x="95" y="125" class="subtitle">Raw context → CRS filter → structured tokens → Tiny LM → result</text>
+  
+<rect x="80" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="108" y="298" class="label">Raw Context</text>
+<text x="108" y="332" class="small">noisy text</text>
+<text x="108" y="358" class="small">full token load</text>
+<rect x="360" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="388" y="298" class="label">CRS Filter</text>
+<text x="388" y="332" class="small">remove noise</text>
+<text x="388" y="358" class="small">preserve structure</text>
+<rect x="640" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="668" y="298" class="label">Structured Tokens</text>
+<text x="668" y="332" class="small">compact context</text>
+<text x="668" y="358" class="small">useful signals</text>
+<rect x="940" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="968" y="298" class="label">Tiny LM</text>
+<text x="968" y="332" class="small">smaller input</text>
+<text x="968" y="358" class="small">focused inference</text>
+<rect x="1240" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="1268" y="298" class="label">Result</text>
+<text x="1268" y="332" class="small">efficient output</text>
+<text x="1268" y="358" class="small">measurable tradeoff</text>
+
+<path class="flow" stroke="url(#blue)" d="M300 340 C325 340,335 340,360 340"/>
+<path class="flow" stroke="url(#orange)" d="M580 340 C605 340,615 340,640 340"/>
+<path class="flow" stroke="url(#blue)" d="M860 340 C885 340,915 340,940 340"/>
+<path class="flow" stroke="url(#orange)" d="M1160 340 C1185 340,1215 340,1240 340"/>
+
+<g transform="translate(115 295)" class="noise">
+  <rect x="0" y="0" width="135" height="10" rx="5" fill="#d8e5f2"/>
+  <rect x="0" y="22" width="110" height="10" rx="5" fill="#d8e5f2"/>
+  <rect x="0" y="44" width="150" height="10" rx="5" fill="#d8e5f2"/>
+  <rect x="0" y="66" width="95" height="10" rx="5" fill="#d8e5f2"/>
+</g>
+
+<g transform="translate(412 315)" class="float">
+  <circle cx="0" cy="0" r="11" fill="#2f80ff"/>
+  <circle cx="44" cy="-16" r="11" fill="#ff8a1f"/>
+  <circle cx="78" cy="16" r="11" fill="#8cc8ff"/>
+  <path d="M0 0 L44 -16 L78 16 Z" fill="none" stroke="#d5eafb" stroke-width="3"/>
+</g>
+
+<g transform="translate(668 290)">
+  <g class="token"><rect x="0" y="0" width="66" height="30" rx="15" fill="#eef6ff"/><text x="33" y="20" text-anchor="middle" font-size="14" fill="#2f80ff" font-weight="700">state</text></g>
+  <g class="token" transform="translate(78 0)"><rect x="0" y="0" width="76" height="30" rx="15" fill="#fff2e6"/><text x="38" y="20" text-anchor="middle" font-size="14" fill="#ff8a1f" font-weight="700">signal</text></g>
+  <g class="token" transform="translate(24 42)"><rect x="0" y="0" width="86" height="30" rx="15" fill="#eef6ff"/><text x="43" y="20" text-anchor="middle" font-size="14" fill="#2f80ff" font-weight="700">intent</text></g>
+</g>
+
+<g transform="translate(1015 335)" class="spinSlow">
+  <circle cx="0" cy="0" r="36" fill="#eef6ff"/><circle cx="0" cy="0" r="16" fill="#2f80ff"/>
+  <circle cx="0" cy="0" r="52" fill="none" stroke="#d7eaff" stroke-width="3" stroke-dasharray="8 12"/>
+</g>
+
+<g class="pulse glowBlue" transform="translate(1350 340)">
+  <circle cx="0" cy="0" r="24" fill="#eef6ff"/><circle cx="0" cy="0" r="10" fill="#2f80ff"/>
+</g>
+
+</svg>

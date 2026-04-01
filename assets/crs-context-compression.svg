@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">CRS Context Compression Animated Diagram</title>
+  <desc id="desc">Noisy context is filtered into structured tokens and routed into a compact model.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7ec8ff"/>
+      <stop offset="100%" stop-color="#2f80ff"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd4a6"/>
+      <stop offset="100%" stop-color="#ff8a1f"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .fade{animation:fade .9s ease both}
+      .float{animation:float 6s ease-in-out infinite}
+      .flow{fill:none;stroke-linecap:round;stroke-width:5;stroke-dasharray:10 14;animation:dash 3.4s linear infinite}
+      .token{animation:breathe 2.8s ease-in-out infinite}
+      .noise{animation:noise .9s ease-in-out infinite}
+      .shrink1{animation:shrink1 4s ease-in-out infinite}
+      .shrink2{animation:shrink2 4s ease-in-out infinite}
+      .bar{animation:bar 3.2s ease-in-out infinite}
+      @keyframes dash{to{stroke-dashoffset:-120}}
+      @keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes float{50%{transform:translateY(-8px)}}
+      @keyframes breathe{50%{transform:scale(1.08)}}
+      @keyframes noise{50%{opacity:.25}}
+      @keyframes shrink1{0%,100%{transform:scale(1)}50%{transform:scale(.82)}}
+      @keyframes shrink2{0%,100%{transform:scale(1)}50%{transform:scale(.7)}}
+      @keyframes bar{50%{width:160px}}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g stroke="#eaf1f7" stroke-width="1">
+    <path d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600"/>
+    <path d="M140 0V900M340 0V900M540 0V900M740 0V900M940 0V900M1140 0V900M1340 0V900M1540 0V900"/>
+  </g>
+
+  <g class="fade">
+    <text x="100" y="92" font-size="42" font-weight="700" fill="#11263c">CRS-LM</text>
+    <text x="100" y="128" font-size="22" fill="#5b7288">Raw context → structured compression → small model</text>
+  </g>
+
+  <g transform="translate(95 210)">
+    <rect x="0" y="0" width="360" height="430" rx="28" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="32" y="54" font-size="24" font-weight="700" fill="#11263c">Raw Context</text>
+    <text x="32" y="84" font-size="18" fill="#5b7288">noisy, long, unfiltered</text>
+    <g transform="translate(32 120)" class="noise">
+      <rect x="0" y="0" width="280" height="14" rx="7" fill="#dbe8f5"/>
+      <rect x="0" y="28" width="240" height="14" rx="7" fill="#dbe8f5"/>
+      <rect x="0" y="56" width="300" height="14" rx="7" fill="#dbe8f5"/>
+      <rect x="0" y="84" width="180" height="14" rx="7" fill="#dbe8f5"/>
+      <rect x="0" y="112" width="260" height="14" rx="7" fill="#dbe8f5"/>
+      <rect x="0" y="140" width="220" height="14" rx="7" fill="#dbe8f5"/>
+      <rect x="0" y="168" width="300" height="14" rx="7" fill="#dbe8f5"/>
+      <rect x="0" y="196" width="160" height="14" rx="7" fill="#dbe8f5"/>
+      <rect x="0" y="224" width="280" height="14" rx="7" fill="#dbe8f5"/>
+    </g>
+  </g>
+
+  <path class="flow" stroke="url(#blue)" d="M455 425 C540 425, 560 425, 630 425"/>
+  <path class="flow" stroke="url(#orange)" d="M455 475 C540 475, 560 475, 630 475"/>
+
+  <g transform="translate(615 230)">
+    <rect x="0" y="0" width="380" height="390" rx="28" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="32" y="54" font-size="24" font-weight="700" fill="#11263c">CRS Filter</text>
+    <text x="32" y="84" font-size="18" fill="#5b7288">remove noise • preserve structure</text>
+
+    <g transform="translate(72 170)" class="float">
+      <circle cx="0" cy="0" r="34" fill="#eef6ff"/>
+      <circle cx="0" cy="0" r="12" fill="#2f80ff"/>
+      <circle cx="120" cy="-28" r="30" fill="#fff3e6"/>
+      <circle cx="120" cy="-28" r="11" fill="#ff8a1f"/>
+      <circle cx="130" cy="86" r="26" fill="#eef6ff"/>
+      <circle cx="130" cy="86" r="10" fill="#2f80ff"/>
+      <path d="M0 0 L120 -28 L130 86 Z" fill="none" stroke="#d6e9fb" stroke-width="3"/>
+    </g>
+
+    <g transform="translate(46 292)">
+      <rect x="0" y="0" width="220" height="12" rx="6" fill="#edf4fb"/>
+      <rect x="0" y="0" width="92" height="12" rx="6" fill="#2f80ff" class="bar"/>
+      <rect x="0" y="24" width="220" height="12" rx="6" fill="#fff0e3"/>
+      <rect x="0" y="24" width="130" height="12" rx="6" fill="#ff8a1f">
+        <animate attributeName="width" values="80;170;120;160;80" dur="3.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <path class="flow" stroke="url(#blue)" d="M995 425 C1060 425, 1085 425, 1140 425"/>
+  <path class="flow" stroke="url(#orange)" d="M995 475 C1060 475, 1085 475, 1140 475"/>
+
+  <g transform="translate(1095 220)">
+    <rect x="0" y="0" width="240" height="420" rx="28" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="28" y="54" font-size="24" font-weight="700" fill="#11263c">Structured Tokens</text>
+    <text x="28" y="84" font-size="18" fill="#5b7288">smaller, cleaner, useful</text>
+
+    <g transform="translate(40 140)">
+      <g class="token">
+        <rect x="0" y="0" width="72" height="34" rx="17" fill="#eef6ff"/>
+        <text x="36" y="22" text-anchor="middle" font-size="15" fill="#2f80ff" font-weight="700">state</text>
+      </g>
+      <g class="token" transform="translate(92 0)">
+        <rect x="0" y="0" width="88" height="34" rx="17" fill="#fff2e6"/>
+        <text x="44" y="22" text-anchor="middle" font-size="15" fill="#ff8a1f" font-weight="700">signal</text>
+      </g>
+      <g class="token" transform="translate(18 58)">
+        <rect x="0" y="0" width="100" height="34" rx="17" fill="#eef6ff"/>
+        <text x="50" y="22" text-anchor="middle" font-size="15" fill="#2f80ff" font-weight="700">context</text>
+      </g>
+      <g class="token" transform="translate(126 58)">
+        <rect x="0" y="0" width="60" height="34" rx="17" fill="#fff2e6"/>
+        <text x="30" y="22" text-anchor="middle" font-size="15" fill="#ff8a1f" font-weight="700">key</text>
+      </g>
+      <g class="token" transform="translate(48 116)">
+        <rect x="0" y="0" width="96" height="34" rx="17" fill="#eef6ff"/>
+        <text x="48" y="22" text-anchor="middle" font-size="15" fill="#2f80ff" font-weight="700">intent</text>
+      </g>
+    </g>
+  </g>
+
+  <path class="flow" stroke="url(#blue)" d="M1335 430 C1390 430, 1420 430, 1480 430"/>
+
+  <g transform="translate(1380 295)">
+    <rect x="0" y="0" width="150" height="220" rx="28" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="27" y="42" font-size="22" font-weight="700" fill="#11263c">Tiny LM</text>
+    <text x="27" y="70" font-size="16" fill="#5b7288">smaller input</text>
+
+    <g transform="translate(75 128)">
+      <circle r="54" fill="#eef6ff"/>
+      <circle r="30" fill="#2f80ff" opacity=".12"/>
+      <circle r="18" fill="#2f80ff"/>
+      <circle r="72" fill="none" stroke="#d7eaff" stroke-width="3" stroke-dasharray="8 12">
+        <animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <g transform="translate(1120 695)">
+    <text x="0" y="0" font-size="18" fill="#5b7288">Best for README hero sections and dark/light GitHub backgrounds</text>
+  </g>
+</svg>

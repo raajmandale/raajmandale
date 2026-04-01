@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="AI Memory Survivability Flow">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7cc8ff"/><stop offset="100%" stop-color="#2f80ff"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd4a6"/><stop offset="100%" stop-color="#ff8a1f"/>
+    </linearGradient>
+    <filter id="glowBlue" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowOrange" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:40px;font-weight:700;fill:#11263c}
+      .subtitle{font-size:20px;fill:#5b7288}
+      .label{font-size:22px;font-weight:700;fill:#11263c}
+      .small{font-size:16px;fill:#60788f}
+      .card{fill:#ffffff;stroke:#e6eef6;stroke-width:2}
+      .flow{fill:none;stroke-linecap:round;stroke-width:5;stroke-dasharray:10 14;animation:dash 3.2s linear infinite}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      .float{animation:float 6s ease-in-out infinite}
+      .spinSlow{animation:spin 10s linear infinite; transform-origin:center}
+      .glowBlue{filter:url(#glowBlue)}
+      .glowOrange{filter:url(#glowOrange)}
+      .bar{animation:bar 3s ease-in-out infinite}
+      .scan{animation:scan 2.8s ease-in-out infinite}
+      .gate{animation:gate 2.8s ease-in-out infinite}
+      .blinkRed{animation:blinkRed 1.5s ease-in-out infinite}
+      .token{animation:breathe 2.6s ease-in-out infinite}
+      .grid{stroke:#ebf2f8;stroke-width:1}
+      @keyframes dash{to{stroke-dashoffset:-120}}
+      @keyframes pulse{50%{transform:scale(1.05)}}
+      @keyframes float{50%{transform:translateY(-8px)}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes bar{50%{transform:scaleX(1.25)}}
+      @keyframes scan{50%{transform:translateX(70px)}}
+      @keyframes gate{50%{transform:translateX(12px)}}
+      @keyframes blinkRed{50%{opacity:.25}}
+      @keyframes breathe{50%{transform:scale(1.07)}}
+    </style>
+
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g>
+    <path class="grid" d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600"/>
+    <path class="grid" d="M120 0V900M320 0V900M520 0V900M720 0V900M920 0V900M1120 0V900M1320 0V900M1520 0V900"/>
+  </g>
+  <text x="95" y="90" class="title">AI Memory Survivability Flow</text>
+  <text x="95" y="125" class="subtitle">Memory payload → fragment map → failure detection → rebuild logic → recovered memory</text>
+  
+<rect x="80" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="108" y="298" class="label">Memory Payload</text>
+<text x="108" y="332" class="small">active state</text>
+<text x="108" y="358" class="small">useful context</text>
+<rect x="360" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="388" y="298" class="label">Fragment Map</text>
+<text x="388" y="332" class="small">distributed memory units</text>
+<text x="388" y="358" class="small">dependency links</text>
+<rect x="640" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="668" y="298" class="label">Failure Detection</text>
+<text x="668" y="332" class="small">missing path</text>
+<text x="668" y="358" class="small">damaged node</text>
+<rect x="920" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="948" y="298" class="label">Rebuild Logic</text>
+<text x="948" y="332" class="small">recover path</text>
+<text x="948" y="358" class="small">reconstruct sequence</text>
+<rect x="1200" y="250" width="220" height="180" rx="28" class="card"/>
+<text x="1228" y="298" class="label">Recovered Memory</text>
+<text x="1228" y="332" class="small">continuity restored</text>
+
+<path class="flow" stroke="url(#blue)" d="M300 340 C325 340,335 340,360 340"/>
+<path class="flow" stroke="url(#orange)" d="M580 340 C605 340,615 340,640 340"/>
+<path class="flow" stroke="url(#blue)" d="M860 340 C885 340,895 340,920 340"/>
+<path class="flow" stroke="url(#orange)" d="M1140 340 C1165 340,1175 340,1200 340"/>
+
+<g class="pulse glowBlue" transform="translate(185 340)">
+  <circle cx="0" cy="0" r="34" fill="#eef6ff"/><circle cx="0" cy="0" r="14" fill="#2f80ff"/>
+</g>
+<g transform="translate(405 312)" class="float">
+  <circle cx="0" cy="0" r="10" fill="#2f80ff"/>
+  <circle cx="48" cy="-20" r="10" fill="#ff8a1f"/>
+  <circle cx="84" cy="18" r="10" fill="#8dcaff"/>
+  <circle cx="126" cy="-4" r="10" fill="#2f80ff"/>
+  <path d="M0 0 L48 -20 L84 18 L126 -4" fill="none" stroke="#d4e9fb" stroke-width="3"/>
+</g>
+<g class="blinkRed" transform="translate(750 340)">
+  <circle cx="0" cy="0" r="14" fill="#ff4b4b"/><circle cx="0" cy="0" r="24" fill="none" stroke="#ffc2c2" stroke-width="3"/>
+</g>
+<g transform="translate(990 340)" class="spinSlow">
+  <circle cx="0" cy="0" r="42" fill="#eef6ff"/><path d="M0 -18 V18 M-18 0 H18" stroke="#2f80ff" stroke-width="6" stroke-linecap="round"/>
+</g>
+<g class="pulse glowBlue" transform="translate(1310 340)">
+  <circle cx="0" cy="0" r="38" fill="#eef6ff"/><circle cx="0" cy="0" r="14" fill="#2f80ff"/>
+</g>
+
+</svg>

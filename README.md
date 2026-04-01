@@ -1,207 +1,93 @@
 <p align="center">
-<img src="assets/banner-eranest.png" width="100%">
+  <img src="assets/raaj_profile_banner_animated.svg" width="100%">
 </p>
 
 <h1 align="center">Raaj Mandale</h1>
 
 <p align="center">
-Founder • System Architect • ERANEST Technoware Pvt Ltd
+System Architect • Founder • ERANEST Systems Lab
 </p>
 
 <p align="center">
 Building deterministic infrastructure, survivable data systems, and next-generation compute architectures.
 </p>
 
-<p align="center">
-🔬 Systems Research • 🧠 AI Infrastructure • 🛡 Security Architecture • ⚙️ Deterministic Compute
-</p>
+---
+
+## ⚡ Systems Direction
+
+```text
+Deterministic Compute → Survivable Data → Controlled AI Execution
+```
 
 ---
 
-# 🔬 ERANEST Systems Lab
+## 🧠 Core Stack
 
-Engineering and research across foundational digital infrastructure.
-
-Focus areas include:
-
-- ⚙️ Deterministic system architectures  
-- 🧩 Fragment-based data storage  
-- 💾 Survivable digital infrastructure  
-- 🧠 Pattern-based compute runtime  
-- 🤖 AI-assisted risk intelligence  
-- 🔐 Secure decision systems  
-
-The goal is to move digital systems from:
-
-**Fragile Software → Deterministic Infrastructure**
-
----
-
-# 🧠 Core System Architecture
-
-
+```text
 QBAIX
 ↓
 M-OS Runtime
 ↓
-Deterministic Fragment Graph (DFG)
+DFG (Reconstruction Engine)
 ↓
 Digital Lifeline
 ↓
-XAIAK AI
+XAIAK (Risk Intelligence)
 ↓
-XAIPT Security
-↓
-XLP / UNI-OS
-
+XAIPT (Decision Gate)
+```
 
 ---
 
-# ⚡ QBAIX
+## 🔬 Flagship Systems
 
-Experimental compute platform exploring next-generation infrastructure combining:
+### ⚙️ Compute
 
-- high-performance compute  
-- deterministic execution models  
-- scalable runtime systems  
+* M-OS Runtime → Pattern-based execution
+* Parameter Golf → Context compression
 
----
+### 💾 Survivability
 
-# 🧠 M-OS Runtime
+* DFG → Rebuild after failure
+* Digital Lifeline → Distributed recovery
 
-Pattern-based runtime architecture exploring deterministic compute behavior.
+### 🛡️ AI + Security
 
-Core concepts:
-
-- Pattern State Transition Graph  
-- deterministic scheduling  
-- scalable runtime execution  
-
-<img src="assets/architecture-mos.png" width="800">
-
-Repository:
-
-https://github.com/raajmandale/mos-runtime
+* XAIAK → Risk intelligence
+* XAIPT → Approval-based execution
 
 ---
 
-# 🧩 Deterministic Fragment Graph (DFG)
+## 🎬 System View
 
-DFG introduces a model where **data becomes a recoverable graph instead of fragile files**.
-
-
-File
-↓
-Fragment
-↓
-Graph
-↓
-Deterministic Reconstruction
-
-
-<img src="assets/architecture-dfg.png" width="800">
-
-Repository:
-
-https://github.com/raajmandale/dfg-demo-lab
+<p align="center">
+  <img src="assets/mos-runtime-architecture.svg" width="85%">
+</p>
 
 ---
 
-# 💾 Digital Lifeline
+## ⚡ Philosophy
 
-Distributed survivability system ensuring that data remains recoverable even if the original device is lost or destroyed.
-
-Core principles:
-
-- fragment-based storage  
-- multi-location survivability  
-- metadata-driven reconstruction  
-- zero full file storage on servers  
-
-<img src="assets/architecture-lifeline.png" width="800">
-
-Repository:
-
-https://github.com/raajmandale/digital-lifeline
+> Systems should not just run.
+> They should **survive, reconstruct, and enforce outcomes.**
 
 ---
 
-# 🤖 AI Systems
+## 🚀 Explore
 
-## 🛡 XAIAK — Risk Intelligence AI
-
-AI system designed to help detect digital risk exposure before damage occurs.
-
-Focus areas:
-
-- contextual alerts  
-- decision risk detection  
-- AI-assisted guidance  
-
-Repository:
-
-https://github.com/raajmandale/xaiak-riskbrief-ai
+* https://github.com/raajmandale/mos-runtime
+* https://github.com/raajmandale/dfg-demo-lab
+* https://github.com/raajmandale/mos-parameter-golf
 
 ---
 
-# 🔐 Security Systems
+## 🌐 Research
 
-## XAIPT — Decision Gate Security
-
-Dual-device authority architecture designed to protect sensitive operations such as payments.
-
-Execution model:
-
-
-HOLD → APPROVE → EXECUTE
-
-
-Repository:
-
-https://github.com/raajmandale/xaipt-decision-gate
-
----
-
-# 📚 Research & Publications
-
-Research artifacts available through:
-
-Zenodo  
 https://zenodo.org/records/18798774
 
-Working papers and articles will be published on:
-
-- Dev.to  
-- Medium  
-- Hashnode  
-
-Topics include:
-
-- deterministic infrastructure  
-- fragment storage architectures  
-- survivable digital systems  
-- pattern-based compute runtime  
-
 ---
 
-# 📊 GitHub Activity
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=raajmandale&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=raajmandale&layout=compact)
-
----
-
-# 👁 Profile Visitors
-
-![Visitor Count](https://komarev.com/ghpvc/?username=raajmandale)
-
----
-
-# 🌐 Connect
-
-GitHub  
-https://github.com/raajmandale
-
-Research artifacts  
-https://zenodo.org/records/18798774
+<p align="center">
+⚡ Deterministic Systems • Survivability • Pattern Compute
+</p>

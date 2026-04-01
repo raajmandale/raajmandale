@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">DFG Reconstruction Animated Diagram</title>
+  <desc id="desc">Data fragments distribute, one fails, and a rebuild engine reconstructs the system.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dc9ff"/>
+      <stop offset="100%" stop-color="#2f80ff"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd4a8"/>
+      <stop offset="100%" stop-color="#ff8a1f"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .route{fill:none;stroke-width:4;stroke-linecap:round;stroke-dasharray:10 14;animation:dash 4s linear infinite}
+      .flow{offset-rotate:auto;animation:move 4.5s linear infinite}
+      .flow.d2{animation-duration:5.2s;animation-delay:-2s}
+      .flow.d3{animation-duration:4s;animation-delay:-1s}
+      .nodePulse{animation:nodePulse 2.8s ease-in-out infinite}
+      .failBlink{animation:failBlink 1.4s ease-in-out infinite}
+      .rebuildPulse{animation:rebuildPulse 3.2s ease-in-out infinite}
+      .fade{animation:fade 1.4s ease both}
+      .gridLine{stroke:#eaf1f7;stroke-width:1}
+      @keyframes dash{to{stroke-dashoffset:-120}}
+      @keyframes move{from{offset-distance:0%}to{offset-distance:100%}}
+      @keyframes nodePulse{50%{transform:scale(1.08)}}
+      @keyframes failBlink{0%,100%{opacity:1}50%{opacity:.25}}
+      @keyframes rebuildPulse{50%{transform:scale(1.03)}}
+      @keyframes fade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g>
+    <path class="gridLine" d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600"/>
+    <path class="gridLine" d="M140 0V900M340 0V900M540 0V900M740 0V900M940 0V900M1140 0V900M1340 0V900M1540 0V900"/>
+  </g>
+
+  <g class="fade">
+    <text x="100" y="92" font-size="42" font-weight="700" fill="#11263c">DFG / Lifeline Reconstruction</text>
+    <text x="100" y="128" font-size="22" fill="#5b7288">Fragment → distribute → detect failure → rebuild</text>
+  </g>
+
+  <g transform="translate(100 210)">
+    <rect x="0" y="0" width="300" height="430" rx="28" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="32" y="54" font-size="24" font-weight="700" fill="#11263c">Original Data</text>
+    <text x="32" y="85" font-size="18" fill="#5b7288">stable memory object</text>
+
+    <g transform="translate(150 245)" filter="url(#glow)" class="nodePulse">
+      <circle r="86" fill="#eef6ff"/>
+      <circle r="62" fill="#2f80ff" opacity=".13"/>
+      <circle r="44" fill="#ff8a1f" opacity=".16"/>
+      <circle r="16" fill="#2f80ff"/>
+      <g stroke="#9fd4ff" stroke-width="2" fill="none" opacity=".9">
+        <path d="M0-66L52-22L38 50L-40 48L-62-12Z"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(455 170)">
+    <text x="0" y="0" font-size="16" fill="#8093a6">Fragment Engine</text>
+    <path d="M0 30 C90 30, 120 30, 200 30" fill="none" stroke="url(#blue)" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 11">
+      <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 100 C90 100, 120 100, 200 100" fill="none" stroke="url(#orange)" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 11">
+      <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(610 180)">
+    <rect x="0" y="0" width="420" height="500" rx="28" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="32" y="54" font-size="24" font-weight="700" fill="#11263c">Distributed Fragments</text>
+    <text x="32" y="85" font-size="18" fill="#5b7288">multi-node survivability mesh</text>
+
+    <g stroke="#d6e9fb" stroke-width="3" fill="none">
+      <path class="route" stroke="url(#blue)" d="M110 140 L210 105 L308 168 L292 290 L178 334 L88 260 Z"/>
+      <path class="route" stroke="url(#orange)" d="M110 140 L88 260 L178 334 L330 358"/>
+      <path class="route" stroke="url(#blue)" d="M210 105 L348 118 L308 168 L348 118"/>
+      <path class="route" stroke="url(#orange)" d="M292 290 L330 358 L178 334"/>
+    </g>
+
+    <g filter="url(#glow)">
+      <circle cx="110" cy="140" r="14" fill="#2f80ff"/>
+      <circle cx="210" cy="105" r="12" fill="#8fcbff"/>
+      <circle cx="308" cy="168" r="14" fill="#ff8a1f"/>
+      <circle cx="292" cy="290" r="12" fill="#2f80ff"/>
+      <circle cx="178" cy="334" r="16" fill="#ff8a1f"/>
+      <circle cx="88" cy="260" r="12" fill="#2f80ff"/>
+      <circle cx="348" cy="118" r="12" fill="#2f80ff"/>
+      <g class="failBlink">
+        <circle cx="330" cy="358" r="16" fill="#ff4b4b"/>
+        <circle cx="330" cy="358" r="28" fill="none" stroke="#ffb1b1" stroke-width="3"/>
+      </g>
+    </g>
+
+    <g class="flow" style="offset-path:path('M110 140 L210 105 L308 168 L292 290 L178 334 L88 260 Z');">
+      <circle r="8" fill="#2f80ff" filter="url(#glow)"/>
+    </g>
+    <g class="flow d2" style="offset-path:path('M110 140 L88 260 L178 334 L330 358');">
+      <circle r="8" fill="#ff8a1f" filter="url(#glow)"/>
+    </g>
+    <g class="flow d3" style="offset-path:path('M210 105 L348 118 L308 168');">
+      <circle r="8" fill="#2f80ff" filter="url(#glow)"/>
+    </g>
+
+    <text x="282" y="404" font-size="16" fill="#ff4b4b" font-weight="700">Failure Event</text>
+  </g>
+
+  <g transform="translate(1075 250)" class="rebuildPulse">
+    <rect x="0" y="0" width="220" height="300" rx="30" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="30" y="54" font-size="24" font-weight="700" fill="#11263c">Rebuild Engine</text>
+    <text x="30" y="85" font-size="17" fill="#5b7288">detects loss and re-stitches state</text>
+
+    <circle cx="110" cy="170" r="56" fill="#f4f9ff"/>
+    <circle cx="110" cy="170" r="34" fill="#2f80ff" opacity=".15"/>
+    <path d="M90 154 l18 -18 l18 18 M108 137 v50" stroke="#2f80ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <animateTransform attributeName="transform" type="rotate" values="0 110 170;360 110 170" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="110" cy="170" r="74" fill="none" stroke="#d1e7ff" stroke-width="3" stroke-dasharray="8 12">
+      <animateTransform attributeName="transform" type="rotate" values="360 110 170;0 110 170" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <rect x="30" y="248" width="160" height="10" rx="5" fill="#edf4fb"/>
+    <rect x="30" y="248" width="82" height="10" rx="5" fill="#2f80ff">
+      <animate attributeName="width" values="50;130;100;150;82" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <path d="M1030 430 C1070 430, 1085 430, 1115 430" fill="none" stroke="url(#orange)" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 11">
+    <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M1295 430 C1370 430, 1410 430, 1480 430" fill="none" stroke="url(#blue)" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 11">
+    <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+
+  <g transform="translate(1310 210)">
+    <rect x="0" y="0" width="220" height="430" rx="30" fill="#ffffff" stroke="#e8eef5"/>
+    <text x="28" y="54" font-size="24" font-weight="700" fill="#11263c">Recovered Data</text>
+    <text x="28" y="84" font-size="18" fill="#5b7288">stable reconstructed output</text>
+
+    <g transform="translate(110 245)" filter="url(#glow)">
+      <circle r="86" fill="#eef6ff"/>
+      <circle r="62" fill="#2f80ff" opacity=".13"/>
+      <circle r="44" fill="#ff8a1f" opacity=".16"/>
+      <circle r="16" fill="#2f80ff"/>
+      <path d="M-50 -8 L-8 -48 L48 -14 L34 42 L-36 40 Z" fill="none" stroke="#9fd4ff" stroke-width="2.5"/>
+      <circle r="100" fill="none" stroke="#cbe4ff" stroke-width="2">
+        <animate attributeName="r" values="90;110;90" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".65;.2;.65" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>

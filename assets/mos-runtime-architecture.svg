@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Pattern Runtime Architecture">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7cc8ff"/><stop offset="100%" stop-color="#2f80ff"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffd4a6"/><stop offset="100%" stop-color="#ff8a1f"/>
+    </linearGradient>
+    <filter id="glowBlue" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowOrange" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif}
+      .title{font-size:40px;font-weight:700;fill:#11263c}
+      .subtitle{font-size:20px;fill:#5b7288}
+      .label{font-size:22px;font-weight:700;fill:#11263c}
+      .small{font-size:16px;fill:#60788f}
+      .card{fill:#ffffff;stroke:#e6eef6;stroke-width:2}
+      .flow{fill:none;stroke-linecap:round;stroke-width:5;stroke-dasharray:10 14;animation:dash 3.2s linear infinite}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      .float{animation:float 6s ease-in-out infinite}
+      .spinSlow{animation:spin 10s linear infinite; transform-origin:center}
+      .glowBlue{filter:url(#glowBlue)}
+      .glowOrange{filter:url(#glowOrange)}
+      .bar{animation:bar 3s ease-in-out infinite}
+      .scan{animation:scan 2.8s ease-in-out infinite}
+      .gate{animation:gate 2.8s ease-in-out infinite}
+      .blinkRed{animation:blinkRed 1.5s ease-in-out infinite}
+      .token{animation:breathe 2.6s ease-in-out infinite}
+      .grid{stroke:#ebf2f8;stroke-width:1}
+      @keyframes dash{to{stroke-dashoffset:-120}}
+      @keyframes pulse{50%{transform:scale(1.05)}}
+      @keyframes float{50%{transform:translateY(-8px)}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes bar{50%{transform:scaleX(1.25)}}
+      @keyframes scan{50%{transform:translateX(70px)}}
+      @keyframes gate{50%{transform:translateX(12px)}}
+      @keyframes blinkRed{50%{opacity:.25}}
+      @keyframes breathe{50%{transform:scale(1.07)}}
+    </style>
+
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g>
+    <path class="grid" d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600M0 720H1600"/>
+    <path class="grid" d="M120 0V900M320 0V900M520 0V900M720 0V900M920 0V900M1120 0V900M1320 0V900M1520 0V900"/>
+  </g>
+  <text x="95" y="90" class="title">Pattern Runtime Architecture</text>
+  <text x="95" y="125" class="subtitle">Pattern input → graph engine → routing core → CPU / GPU lanes → deterministic output</text>
+  
+<rect x="80" y="220" width="220" height="190" rx="28" class="card"/>
+<text x="108" y="268" class="label">Pattern Input</text>
+<text x="108" y="302" class="small">structured tasks</text>
+<text x="108" y="328" class="small">execution intent</text>
+<rect x="360" y="220" width="220" height="190" rx="28" class="card"/>
+<text x="388" y="268" class="label">Graph Engine</text>
+<text x="388" y="302" class="small">node formation</text>
+<text x="388" y="328" class="small">state links</text>
+<rect x="640" y="220" width="220" height="190" rx="28" class="card"/>
+<text x="668" y="268" class="label">Routing Core</text>
+<text x="668" y="302" class="small">lane selection</text>
+<text x="668" y="328" class="small">bounded execution</text>
+<rect x="940" y="145" width="220" height="190" rx="28" class="card"/>
+<text x="968" y="193" class="label">CPU Lane</text>
+<text x="968" y="227" class="small">control logic</text>
+<text x="968" y="253" class="small">serial operations</text>
+<rect x="940" y="385" width="220" height="190" rx="28" class="card"/>
+<text x="968" y="433" class="label">GPU Lane</text>
+<text x="968" y="467" class="small">parallel execution</text>
+<text x="968" y="493" class="small">pattern throughput</text>
+<rect x="1240" y="265" width="250" height="190" rx="28" class="card"/>
+<text x="1268" y="313" class="label">Deterministic Output</text>
+<text x="1268" y="347" class="small">stable result</text>
+<text x="1268" y="373" class="small">reproducible flow</text>
+
+<path class="flow" stroke="url(#blue)" d="M300 315 C325 315,335 315,360 315"/>
+<path class="flow" stroke="url(#orange)" d="M580 315 C605 315,615 315,640 315"/>
+<path class="flow" stroke="url(#blue)" d="M860 265 C900 245,900 240,940 240"/>
+<path class="flow" stroke="url(#orange)" d="M860 365 C900 470,900 480,940 480"/>
+<path class="flow" stroke="url(#blue)" d="M1160 240 C1200 240,1210 320,1240 320"/>
+<path class="flow" stroke="url(#orange)" d="M1160 480 C1200 480,1210 380,1240 380"/>
+
+<g class="pulse glowBlue"><circle cx="190" cy="315" r="18" fill="#2f80ff"/></g>
+<g class="float">
+  <circle cx="430" cy="315" r="12" fill="#2f80ff" class="glowBlue"/>
+  <circle cx="475" cy="280" r="12" fill="#ff8a1f" class="glowOrange"/>
+  <circle cx="510" cy="335" r="12" fill="#8cc8ff"/>
+  <path d="M430 315 L475 280 L510 335 Z" fill="none" stroke="#d5e9fb" stroke-width="3"/>
+</g>
+
+<g transform="translate(700 302)">
+  <rect x="0" y="0" width="110" height="12" rx="6" fill="#edf4fb"/>
+  <rect x="0" y="0" width="65" height="12" rx="6" fill="#2f80ff" class="bar" transform-origin="0 6"/>
+  <rect x="0" y="26" width="110" height="12" rx="6" fill="#fff1e4"/>
+  <rect x="0" y="26" width="82" height="12" rx="6" fill="#ff8a1f" class="bar" transform-origin="0 32"/>
+</g>
+
+<g transform="translate(995 225)">
+  <rect x="0" y="0" width="120" height="16" rx="8" fill="#dcecff"/>
+  <rect x="0" y="0" width="42" height="16" rx="8" fill="#2f80ff" class="scan"/>
+</g>
+<g transform="translate(975 455)">
+  <rect x="0" y="0" width="150" height="42" rx="12" fill="#fff1e4"/>
+  <rect x="10" y="7" width="22" height="28" rx="7" fill="#ff8a1f"/>
+  <rect x="40" y="7" width="22" height="28" rx="7" fill="#ffc98e"/>
+  <rect x="70" y="7" width="22" height="28" rx="7" fill="#ff8a1f"/>
+  <rect x="100" y="7" width="22" height="28" rx="7" fill="#ffc98e"/>
+</g>
+
+<g class="pulse glowBlue"><circle cx="1370" cy="360" r="24" fill="#2f80ff" opacity=".18"/><circle cx="1370" cy="360" r="12" fill="#2f80ff"/></g>
+
+</svg>

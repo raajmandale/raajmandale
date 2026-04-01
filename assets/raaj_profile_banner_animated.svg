@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Raaj Mandale animated GitHub banner</title>
+  <desc id="desc">Minimal Apple and OpenAI style animated banner with deterministic compute, survivable data, and next-gen architecture theme.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#f4f8fc"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#67c4ff"/>
+      <stop offset="100%" stop-color="#135dff"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffcf9b"/>
+      <stop offset="100%" stop-color="#ff8a1f"/>
+    </linearGradient>
+    <linearGradient id="inkFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f2236"/>
+      <stop offset="100%" stop-color="#2a4766"/>
+    </linearGradient>
+
+    <filter id="softBlueGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softOrangeGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <path id="blueFlow" d="M 1010 120 C 1140 120, 1210 170, 1330 178 C 1430 184, 1490 164, 1560 138"/>
+    <path id="orangeFlow" d="M 1010 268 C 1130 272, 1200 244, 1300 222 C 1400 200, 1480 210, 1560 244"/>
+
+    <style>
+      text { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .grid { stroke:#e9f0f6; stroke-width:1; }
+      .faint { opacity:.7; }
+      .floatA { animation: floatA 7s ease-in-out infinite; }
+      .floatB { animation: floatB 6.4s ease-in-out infinite; }
+      .pulseBlue { animation: pulseBlue 2.8s ease-in-out infinite; }
+      .pulseOrange { animation: pulseOrange 3.2s ease-in-out infinite; }
+      .dashA { stroke-dasharray:10 16; animation: dash 4s linear infinite; }
+      .dashB { stroke-dasharray:9 15; animation: dash 3.2s linear infinite; }
+      .routeSpark { offset-rotate:auto; animation: travel 4.4s linear infinite; }
+      .routeSpark.s2 { animation-duration: 5.2s; animation-delay: -1.6s; }
+      .routeSpark.s3 { animation-duration: 4.8s; animation-delay: -2.1s; }
+      .scanBar { animation: scan 3s ease-in-out infinite; }
+      .halo { animation: halo 3.6s ease-out infinite; transform-origin:center; }
+      .fadeIn { animation: fadeIn .9s ease-out both; }
+      .fadeIn2 { animation: fadeIn 1.2s ease-out both; }
+      .fadeIn3 { animation: fadeIn 1.5s ease-out both; }
+      @keyframes dash { to { stroke-dashoffset:-120; } }
+      @keyframes travel { from { offset-distance:0%; } to { offset-distance:100%; } }
+      @keyframes floatA { 50% { transform: translateY(-7px);} }
+      @keyframes floatB { 50% { transform: translateY(6px);} }
+      @keyframes pulseBlue { 50% { transform: scale(1.06); opacity:1; } }
+      @keyframes pulseOrange { 50% { transform: scale(1.08); opacity:1; } }
+      @keyframes scan { 50% { transform: translateX(96px);} }
+      @keyframes halo { 0% { opacity:.55; transform:scale(.82);} 100% { opacity:0; transform:scale(1.55);} }
+      @keyframes fadeIn { from { opacity:0; transform:translateY(12px);} to { opacity:1; transform:translateY(0);} }
+    </style>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#bg)"/>
+
+  <g class="faint">
+    <path class="grid" d="M0 70H1600M0 140H1600M0 210H1600M0 280H1600M0 350H1600"/>
+    <path class="grid" d="M110 0V420M310 0V420M510 0V420M710 0V420M910 0V420M1110 0V420M1310 0V420M1510 0V420"/>
+  </g>
+
+  <!-- soft background cards -->
+  <rect x="72" y="72" width="910" height="276" rx="34" fill="#ffffff" opacity=".72" stroke="#e7eef5"/>
+  <rect x="1020" y="72" width="510" height="276" rx="34" fill="#ffffff" opacity=".72" stroke="#e7eef5"/>
+
+  <!-- left copy -->
+  <g class="fadeIn">
+    <text x="112" y="150" font-size="66" font-weight="700" fill="url(#inkFade)">Raaj Mandale</text>
+  </g>
+  <g class="fadeIn2">
+    <text x="114" y="196" font-size="28" fill="#4f667b">System Architect • Founder • ERANEST Systems Lab</text>
+  </g>
+  <g class="fadeIn3">
+    <text x="114" y="246" font-size="30" font-weight="600" fill="#12263a">Deterministic Infrastructure</text>
+    <text x="486" y="246" font-size="30" font-weight="600" fill="#6d8398">•</text>
+    <text x="518" y="246" font-size="30" font-weight="600" fill="#12263a">Survivable Data</text>
+    <text x="780" y="246" font-size="30" font-weight="600" fill="#6d8398">•</text>
+    <text x="812" y="246" font-size="30" font-weight="600" fill="#12263a">Next-Gen Compute</text>
+  </g>
+
+  <g class="fadeIn3">
+    <rect x="114" y="283" width="460" height="38" rx="19" fill="#f2f7fc" stroke="#e4edf5"/>
+    <circle cx="141" cy="302" r="8" fill="#2f80ff"/>
+    <text x="162" y="309" font-size="18" fill="#496176">Systems that survive, reconstruct, and enforce outcomes</text>
+  </g>
+
+  <!-- right visual system -->
+  <g transform="translate(1040 92)">
+    <!-- Graph cluster -->
+    <g class="floatA">
+      <path d="M78 86 L166 52 L254 100 L238 196 L136 236 L56 180 Z" fill="none" stroke="#dbe9f7" stroke-width="3"/>
+      <path class="dashA" d="M78 86 L166 52 L254 100 L238 196 L136 236 L56 180 Z" fill="none" stroke="url(#blueGrad)" stroke-width="4" stroke-linecap="round"/>
+      <path class="dashB" d="M166 52 L136 236 M78 86 L238 196 M56 180 L254 100" fill="none" stroke="url(#orangeGrad)" stroke-width="3" stroke-linecap="round" opacity=".82"/>
+
+      <g class="pulseBlue">
+        <circle cx="78" cy="86" r="11" fill="#2f80ff" filter="url(#softBlueGlow)"/>
+        <circle cx="78" cy="86" r="22" fill="none" stroke="#bdddff" stroke-width="2" class="halo"/>
+      </g>
+      <g class="pulseBlue">
+        <circle cx="166" cy="52" r="10" fill="#8dceff"/>
+      </g>
+      <g class="pulseOrange">
+        <circle cx="254" cy="100" r="11" fill="#ff8a1f" filter="url(#softOrangeGlow)"/>
+        <circle cx="254" cy="100" r="22" fill="none" stroke="#ffd7b2" stroke-width="2" class="halo"/>
+      </g>
+      <g class="pulseBlue">
+        <circle cx="238" cy="196" r="10" fill="#2f80ff"/>
+      </g>
+      <g class="pulseOrange">
+        <circle cx="136" cy="236" r="12" fill="#ff8a1f" filter="url(#softOrangeGlow)"/>
+      </g>
+      <g class="pulseBlue">
+        <circle cx="56" cy="180" r="10" fill="#87cbff"/>
+      </g>
+    </g>
+
+    <!-- routing core -->
+    <g transform="translate(318 56)" class="floatB">
+      <rect x="0" y="0" width="128" height="132" rx="28" fill="#ffffff" stroke="#dfeaf4"/>
+      <text x="26" y="40" font-size="20" font-weight="700" fill="#11263c">Core</text>
+      <text x="26" y="64" font-size="14" fill="#5f7489">routing</text>
+
+      <rect x="24" y="82" width="78" height="8" rx="4" fill="#eef5fb"/>
+      <rect x="24" y="82" width="36" height="8" rx="4" fill="#2f80ff">
+        <animate attributeName="width" values="22;64;36;70;22" dur="3.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="24" y="98" width="78" height="8" rx="4" fill="#fff0e4"/>
+      <rect x="24" y="98" width="52" height="8" rx="4" fill="#ff8a1f">
+        <animate attributeName="width" values="32;70;46;62;32" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- compute lanes -->
+    <g transform="translate(520 20)" class="floatA">
+      <rect x="0" y="0" width="136" height="102" rx="28" fill="#ffffff" stroke="#dfeaf4"/>
+      <text x="26" y="38" font-size="21" font-weight="700" fill="#11263c">CPU</text>
+      <text x="26" y="60" font-size="14" fill="#5f7489">control lane</text>
+      <rect x="24" y="74" width="84" height="10" rx="5" fill="#dcecff"/>
+      <rect x="24" y="74" width="32" height="10" rx="5" fill="#2f80ff" class="scanBar"/>
+    </g>
+
+    <g transform="translate(520 154)" class="floatB">
+      <rect x="0" y="0" width="136" height="102" rx="28" fill="#ffffff" stroke="#fde6cf"/>
+      <text x="26" y="38" font-size="21" font-weight="700" fill="#11263c">GPU</text>
+      <text x="26" y="60" font-size="14" fill="#5f7489">parallel lane</text>
+      <g transform="translate(24 74)">
+        <rect x="0" y="0" width="18" height="18" rx="5" fill="#ff8a1f"/>
+        <rect x="24" y="0" width="18" height="18" rx="5" fill="#ffc88d"/>
+        <rect x="48" y="0" width="18" height="18" rx="5" fill="#ff8a1f"/>
+        <rect x="72" y="0" width="18" height="18" rx="5" fill="#ffc88d"/>
+      </g>
+    </g>
+
+    <!-- output -->
+    <g transform="translate(722 74)" class="pulseBlue">
+      <circle cx="0" cy="56" r="52" fill="#eef6ff"/>
+      <circle cx="0" cy="56" r="26" fill="#2f80ff" opacity=".18"/>
+      <circle cx="0" cy="56" r="11" fill="#2f80ff"/>
+      <circle cx="0" cy="56" r="72" fill="none" stroke="#cde5ff" stroke-width="2" class="halo"/>
+    </g>
+
+    <!-- connecting flows -->
+    <path d="M268 126 C 298 126, 312 122, 318 122" fill="none" stroke="url(#blueGrad)" stroke-width="5" stroke-linecap="round" class="dashA"/>
+    <path d="M446 122 C 480 108, 492 90, 520 72" fill="none" stroke="url(#blueGrad)" stroke-width="5" stroke-linecap="round" class="dashA"/>
+    <path d="M446 130 C 486 152, 496 176, 520 194" fill="none" stroke="url(#orangeGrad)" stroke-width="5" stroke-linecap="round" class="dashB"/>
+    <path d="M656 72 C 690 68, 702 88, 722 112" fill="none" stroke="url(#blueGrad)" stroke-width="5" stroke-linecap="round" class="dashA"/>
+    <path d="M656 204 C 690 198, 702 170, 722 146" fill="none" stroke="url(#orangeGrad)" stroke-width="5" stroke-linecap="round" class="dashB"/>
+
+    <!-- moving sparks -->
+    <g class="routeSpark" style="offset-path:path('M 268 126 C 298 126, 312 122, 318 122');">
+      <circle r="7" fill="#2f80ff" filter="url(#softBlueGlow)"/>
+    </g>
+    <g class="routeSpark s2" style="offset-path:path('M446 122 C 480 108, 492 90, 520 72');">
+      <circle r="7" fill="#2f80ff" filter="url(#softBlueGlow)"/>
+    </g>
+    <g class="routeSpark s3" style="offset-path:path('M446 130 C 486 152, 496 176, 520 194');">
+      <circle r="7" fill="#ff8a1f" filter="url(#softOrangeGlow)"/>
+    </g>
+    <g class="routeSpark s2" style="offset-path:path('M656 204 C 690 198, 702 170, 722 146');">
+      <circle r="7" fill="#ff8a1f" filter="url(#softOrangeGlow)"/>
+    </g>
+
+    <!-- label chips -->
+    <g class="fadeIn2">
+      <rect x="0" y="286" width="118" height="34" rx="17" fill="#f2f7fc" stroke="#e4edf5"/>
+      <circle cx="18" cy="303" r="6" fill="#2f80ff"/>
+      <text x="31" y="309" font-size="15" fill="#4a6277">determinism</text>
+
+      <rect x="134" y="286" width="110" height="34" rx="17" fill="#fff4ea" stroke="#ffe4c8"/>
+      <circle cx="152" cy="303" r="6" fill="#ff8a1f"/>
+      <text x="165" y="309" font-size="15" fill="#4a6277">recovery</text>
+
+      <rect x="258" y="286" width="138" height="34" rx="17" fill="#f2f7fc" stroke="#e4edf5"/>
+      <circle cx="276" cy="303" r="6" fill="#2f80ff"/>
+      <text x="289" y="309" font-size="15" fill="#4a6277">pattern compute</text>
+    </g>
+  </g>
+</svg>
