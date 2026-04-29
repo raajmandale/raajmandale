@@ -82,21 +82,24 @@ Official public profile connecting projects, publications, research identity and
 ---
 
 <p align="center">
-<img src="assets/mos-mee.svg" width="92%">
+<img src="assets/mos_animated.gif" width="92%">
 </p>
 
 ---
 
 # Flagship Repositories
 
-### XPADI Shield  
-Repository: https://github.com/raajmandale/XPADI_Proof_Engine_V1
+🚀 XPADI Shield  
+🔗 Repository  
+https://github.com/raajmandale/XPADI_Proof_Engine_V1
 
-### M-OS Execution Reactor  
-Repository: https://github.com/raajmandale/mos-mee-execution-reactor
+⚙️ M-OS Execution Reactor  
+🔗 Repository  
+https://github.com/raajmandale/mos-mee-execution-reactor
 
-### XLifelineAI  
-Repository: https://github.com/raajmandale/XLifelineAI
+🧠 XLifelineAI  
+🔗 Repository  
+https://github.com/raajmandale/XLifelineAI
 
 Additional:
 
