@@ -66,7 +66,7 @@ Official public profile connecting projects, publications, research identity and
 ---
 
 <p align="center">
-<img src="assets/xpadi-architecture.svg" width="92%">
+<img src="assets/xpadi-banner.svg" width="92%">
 </p>
 
 ---
