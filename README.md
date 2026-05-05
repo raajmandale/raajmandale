@@ -1,6 +1,51 @@
 # Raaj Mandale
 
 <p align="center">
+  <img src="docs/system-map.svg" width="100%" />
+</p>
+
+<h1 align="center">Raaj Mandale</h1>
+
+<p align="center">
+  Building unified deeptech systems across <b>AI Compute</b>, <b>Execution Intelligence</b>, and <b>Data Survivability</b>
+</p>
+
+---
+
+## ⚡ System Overview
+
+A unified architecture composed of three core systems:
+
+- **QBAIX** → AI Compute Infrastructure Layer  
+- **M-OS** → Pattern-Based Execution Intelligence  
+- **XPADI** → Survivability-Governed Data System  
+
+Together:
+
+> Compute → Execution → Survivability → Proof
+
+This is not a collection of projects.  
+It is a **cohesive system stack for next-generation computing environments**.
+
+---
+
+## 🧠 Core Thesis
+
+Execution does not always need to begin from zero.
+
+Systems can:
+- Detect patterns  
+- Reuse prior execution  
+- Survive failures  
+- Prove correctness  
+
+This work explores:
+
+> **Reusable, survivable, and verifiable execution systems**
+
+---
+
+<p align="center">
 <img src="assets/raaj_profile_banner_animated.svg" width="100%">
 </p>
 
@@ -15,26 +60,23 @@ Pune, India • Eranest Technoware Pvt Ltd
 <p align="center">
 
 ![Research](https://img.shields.io/badge/Research-Active-blue)
-
 ![Open Source](https://img.shields.io/badge/Open%20Source-Public-green)
-
 ![ORCID](https://img.shields.io/badge/ORCID-0009--0005--9810--1655-brightgreen)
-
 ![Wikidata](https://img.shields.io/badge/Wikidata-Q139570902-orange)
 
 </p>
 
 ---
 
-# Canonical Profile
+## 🌐 Canonical Profile
 
-🌐 https://raajmandale.in/raaj-mandale.html
+https://raajmandale.in/raaj-mandale.html
 
-Official public profile connecting projects, publications, research identity and proof artifacts.
+Official public profile connecting projects, publications, research identity, and proof artifacts.
 
 ---
 
-# Quick Links
+## 🔗 Quick Links
 
 | Resource | Link |
 |---------|------|
@@ -46,22 +88,27 @@ Official public profile connecting projects, publications, research identity and
 
 ---
 
-# Research Identity
+## 🧾 Research Identity
 
 **Name:** Raaj Mandale  
-**Aliases:** Raaj Mandale Research / ERANEST Systems Lab  
-**Company:** Eranest Technoware Pvt Ltd  
-**Location:** Pune, India
+**Affiliation:** Eranest Technoware Pvt Ltd / Mandale Research Systems  
+**Location:** Pune, India  
 
 ---
 
-# Featured Research Papers
+## 📄 Featured Research Papers
 
-| Paper | DOI |
-|------|-----|
-| QBAIX + Mandale-OS | https://doi.org/10.5281/zenodo.18798774 |
-| Mandale-OS (M-OS) | https://doi.org/10.5281/zenodo.19793309 |
-| XPADI — SGDS | https://doi.org/10.5281/zenodo.19500143 |
+| Paper | Focus | DOI |
+|------|------|------|
+| QBAIX + Mandale-OS | AI Compute + Execution Intelligence | https://doi.org/10.5281/zenodo.18798774 |
+| Mandale-OS (M-OS) | Pattern Execution Systems | https://doi.org/10.5281/zenodo.19793309 |
+| Mandale-OS (M-OS) | Pattern Execution Systems | https://doi.org/10.5281/zenodo.19793309 |
+| XPADI — SGDS | Data Survivability Systems | https://doi.org/10.5281/zenodo.19500143 |
+
+## 📚 Additional Publications
+
+- SSRN Research Paper  
+  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6573778
 
 ---
 
@@ -71,7 +118,7 @@ Official public profile connecting projects, publications, research identity and
 
 ---
 
-# Flagship Systems
+## 🚀 Flagship Systems
 
 | System | Focus | Proof |
 |--------|-------|-------|
@@ -87,69 +134,62 @@ Official public profile connecting projects, publications, research identity and
 
 ---
 
-# Flagship Repositories
+## 🧩 Flagship Repositories
 
 🚀 XPADI Shield  
-🔗 Repository  
 https://github.com/raajmandale/XPADI_Proof_Engine_V1
 
 ⚙️ M-OS Execution Reactor  
-🔗 Repository  
 https://github.com/raajmandale/mos-mee-execution-reactor
 
 🧠 XLifelineAI  
-🔗 Repository  
 https://github.com/raajmandale/XLifelineAI
 
-Additional:
-
+**Additional:**
 - https://github.com/raajmandale/mos-runtime  
 - https://github.com/raajmandale/mos-parameter-golf  
-- https://github.com/raajmandale/dfg-demo-lab
+- https://github.com/raajmandale/dfg-demo-lab  
 
 ---
 
-# Selected Contributions
+## 🧠 Selected Contributions
 
-• Pattern-based execution memory systems (Mandale-OS)
-
-• Survivability-governed data systems (XPADI)
-
-• Deterministic Fragment Graph (DFG)
-
-• AI memory resilience experiments (XLifelineAI)
+- Pattern-based execution memory systems (Mandale-OS)  
+- Survivability-governed data systems (XPADI)  
+- Deterministic Fragment Graph (DFG)  
+- AI memory resilience experiments (XLifelineAI)  
 
 ---
 
-# Notable Works
+## 🧱 Notable Works
 
 - XPADI Shield™  
 - Mandale-OS (M-OS)  
 - QBAIX Hybrid Compute Systems  
-- Mahira-X (research-fiction publication)
+- Mahira-X (research-fiction publication)  
 
 ---
 
-# Company
+## 🏢 Company
 
 Eranest Technoware Pvt Ltd  
-ICC Devi IT Park, Pune
+ICC Devi IT Park, Pune  
 
-Email: info@eranest.in
+Email: info@eranest.in  
 
 ---
 
-# Mahira-X
+## 📘 Mahira-X
 
 Amazon Kindle  
-https://www.amazon.in/dp/B0GX3N1TG9
+https://www.amazon.in/dp/B0GX3N1TG9  
 
 Website  
-https://raajmandale.in/mahira-x.html
+https://raajmandale.in/mahira-x.html  
 
 ---
 
-# External References
+## 🌍 External References
 
 - Zenodo: https://zenodo.org/records/19500143  
 - ORCID: https://orcid.org/0009-0005-9810-1655  
@@ -158,7 +198,7 @@ https://raajmandale.in/mahira-x.html
 
 ---
 
-# GitHub Metrics
+## 📊 GitHub Metrics
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=raajmandale&show_icons=true)
 
@@ -166,4 +206,6 @@ https://raajmandale.in/mahira-x.html
 
 ---
 
-Compute • Survivability • Execution Intelligence
+<p align="center">
+Compute • Execution • Survivability • Proof
+</p>

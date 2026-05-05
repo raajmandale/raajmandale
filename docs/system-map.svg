@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-label="Mandale System Map">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#0b5cff" stop-opacity="0.22"></stop>
+      <stop offset="45%" stop-color="#07152c" stop-opacity="1"></stop>
+      <stop offset="100%" stop-color="#030712" stop-opacity="1"></stop>
+    </radialGradient>
+
+    <radialGradient id="nodeBlue" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"></stop>
+      <stop offset="35%" stop-color="#31d7ff"></stop>
+      <stop offset="70%" stop-color="#0b5cff"></stop>
+      <stop offset="100%" stop-color="#061225"></stop>
+    </radialGradient>
+
+    <radialGradient id="nodeOrange" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"></stop>
+      <stop offset="35%" stop-color="#ffb45c"></stop>
+      <stop offset="75%" stop-color="#ff7a18"></stop>
+      <stop offset="100%" stop-color="#1b0b02"></stop>
+    </radialGradient>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="7" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="flowLine" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b5cff"></stop>
+      <stop offset="50%" stop-color="#28e7ff"></stop>
+      <stop offset="100%" stop-color="#ff7a18"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="820" rx="38" fill="url(#bgGlow)"></rect>
+
+  <g opacity="0.18">
+    <path d="M0 150H1400M0 300H1400M0 450H1400M0 600H1400" stroke="#8adfff"></path>
+    <path d="M180 0V820M380 0V820M580 0V820M780 0V820M980 0V820M1180 0V820" stroke="#8adfff"></path>
+  </g>
+
+  <text x="90" y="92" fill="#78e7ff" font-size="22" font-family="Arial" letter-spacing="9">MANDALE SYSTEM MAP</text>
+  <text x="90" y="150" fill="#ffffff" font-size="62" font-family="Arial" font-weight="800">M-OS + XPADI + QBAIX</text>
+  <text x="90" y="198" fill="#d9ecff" font-size="26" font-family="Arial">Execution intelligence • data survivability • AI compute infrastructure • proof systems</text>
+
+  <path d="M700 250 C700 310 700 350 700 410 C700 470 700 520 700 590" fill="none" stroke="url(#flowLine)" stroke-width="8" stroke-linecap="round" opacity="0.85"></path>
+
+  <circle r="10" fill="#ffffff" filter="url(#softGlow)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M700 250 C700 310 700 350 700 410 C700 470 700 520 700 590"></animateMotion>
+  </circle>
+
+  <g transform="translate(700 260)" text-anchor="middle" font-family="Arial">
+    <circle r="92" fill="url(#nodeOrange)" filter="url(#softGlow)">
+      <animate attributeName="r" values="88;98;88" dur="3s" repeatCount="indefinite"></animate>
+    </circle>
+    <circle r="118" fill="none" stroke="#ff7a18" stroke-width="4" stroke-dasharray="14 18">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"></animateTransform>
+    </circle>
+    <text y="-12" fill="#ffffff" font-size="42" font-weight="800">QBAIX</text>
+    <text y="28" fill="#ffe0c2" font-size="20">AI Compute Infrastructure</text>
+  </g>
+
+  <g transform="translate(430 430)" text-anchor="middle" font-family="Arial">
+    <circle r="92" fill="url(#nodeBlue)" filter="url(#softGlow)">
+      <animate attributeName="r" values="88;99;88" dur="3.4s" repeatCount="indefinite"></animate>
+    </circle>
+    <circle r="118" fill="none" stroke="#28e7ff" stroke-width="4" stroke-dasharray="10 16">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"></animateTransform>
+    </circle>
+    <text y="-12" fill="#ffffff" font-size="42" font-weight="800">M-OS</text>
+    <text y="28" fill="#d9ecff" font-size="20">Execution Intelligence</text>
+  </g>
+
+  <g transform="translate(970 430)" text-anchor="middle" font-family="Arial">
+    <circle r="92" fill="url(#nodeBlue)" filter="url(#softGlow)">
+      <animate attributeName="r" values="88;99;88" dur="3.2s" repeatCount="indefinite"></animate>
+    </circle>
+    <circle r="118" fill="none" stroke="#28e7ff" stroke-width="4" stroke-dasharray="10 16">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"></animateTransform>
+    </circle>
+    <text y="-12" fill="#ffffff" font-size="42" font-weight="800">XPADI</text>
+    <text y="28" fill="#d9ecff" font-size="20">Data Survivability</text>
+  </g>
+
+  <g transform="translate(700 620)" text-anchor="middle" font-family="Arial">
+    <circle r="92" fill="url(#nodeOrange)" filter="url(#softGlow)">
+      <animate attributeName="r" values="88;98;88" dur="3.6s" repeatCount="indefinite"></animate>
+    </circle>
+    <circle r="118" fill="none" stroke="#ff7a18" stroke-width="4" stroke-dasharray="14 18">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite"></animateTransform>
+    </circle>
+    <text y="-12" fill="#ffffff" font-size="42" font-weight="800">PPE</text>
+    <text y="28" fill="#ffe0c2" font-size="20">Proof + Verification</text>
+  </g>
+
+  <path d="M520 430H880" stroke="#28e7ff" stroke-width="4" stroke-dasharray="12 16" opacity="0.65">
+    <animate attributeName="stroke-dashoffset" from="0" to="-60" dur="2s" repeatCount="indefinite"></animate>
+  </path>
+
+  <text x="700" y="760" fill="#ffffff" font-size="26" font-family="Arial" text-anchor="middle" font-weight="700">
+    COMPUTE → EXECUTION → SURVIVABILITY → PROOF
+  </text>
+  <text x="700" y="796" fill="#9bdcff" font-size="18" font-family="Arial" text-anchor="middle">
+    A unified deeptech architecture for reusable execution, resilient data, and verifiable system behavior.
+  </text>
+</svg>
