@@ -11,6 +11,16 @@ Founder building systems across AI compute, execution memory, and data survivabi
 <p align="center">
 Pune, India • Eranest Technoware Pvt Ltd
 </p>
+<p align="center">
+
+![Research](https://img.shields.io/badge/Research-Active-blue)
+![Open Source](https://img.shields.io/badge/Open%20Source-Public-green)
+![ORCID](https://img.shields.io/badge/ORCID-0009--0005--9810--1655-brightgreen)
+![Wikidata](https://img.shields.io/badge/Wikidata-Q139570902-orange)
+
+</p>
+
+---
 
 ## 🧭 System Architecture
 
@@ -50,17 +60,6 @@ Systems can:
 This work explores:
 
 > **Reusable, survivable, and verifiable execution systems**
-
----
-
-<p align="center">
-
-![Research](https://img.shields.io/badge/Research-Active-blue)
-![Open Source](https://img.shields.io/badge/Open%20Source-Public-green)
-![ORCID](https://img.shields.io/badge/ORCID-0009--0005--9810--1655-brightgreen)
-![Wikidata](https://img.shields.io/badge/Wikidata-Q139570902-orange)
-
-</p>
 
 ---
 
