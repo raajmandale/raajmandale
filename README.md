@@ -1,13 +1,21 @@
 # Raaj Mandale
 
 <p align="center">
-  <img src="docs/system-map.svg" width="100%" />
+<img src="assets/raaj_profile_banner_animated.svg" width="100%">
 </p>
 
-<h1 align="center">Raaj Mandale</h1>
+<h3 align="center">
+Founder building systems across AI compute, execution memory, and data survivability.
+</h3>
 
 <p align="center">
-  Building unified deeptech systems across <b>AI Compute</b>, <b>Execution Intelligence</b>, and <b>Data Survivability</b>
+Pune, India • Eranest Technoware Pvt Ltd
+</p>
+
+## 🧭 System Architecture
+
+<p align="center">
+  <img src="docs/system-map.svg" width="100%" />
 </p>
 
 ---
@@ -44,18 +52,6 @@ This work explores:
 > **Reusable, survivable, and verifiable execution systems**
 
 ---
-
-<p align="center">
-<img src="assets/raaj_profile_banner_animated.svg" width="100%">
-</p>
-
-<h3 align="center">
-Founder building systems across AI compute, execution memory, and data survivability.
-</h3>
-
-<p align="center">
-Pune, India • Eranest Technoware Pvt Ltd
-</p>
 
 <p align="center">
 
@@ -101,7 +97,6 @@ Official public profile connecting projects, publications, research identity, an
 | Paper | Focus | DOI |
 |------|------|------|
 | QBAIX + Mandale-OS | AI Compute + Execution Intelligence | https://doi.org/10.5281/zenodo.18798774 |
-| Mandale-OS (M-OS) | Pattern Execution Systems | https://doi.org/10.5281/zenodo.19793309 |
 | Mandale-OS (M-OS) | Pattern Execution Systems | https://doi.org/10.5281/zenodo.19793309 |
 | XPADI — SGDS | Data Survivability Systems | https://doi.org/10.5281/zenodo.19500143 |
 
@@ -200,9 +195,10 @@ https://raajmandale.in/mahira-x.html
 
 ## 📊 GitHub Metrics
 
-![Stats](https://github-readme-stats.vercel.app/api?username=raajmandale&show_icons=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=raajmandale&layout=compact)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=raajmandale&show_icons=true&theme=default" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raajmandale&layout=compact&theme=default" height="150" />
+</p>
 
 ---
 
