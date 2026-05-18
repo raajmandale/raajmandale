@@ -121,7 +121,7 @@ This work explores:
 </p>
 
 ---
-### ⚡ Flagship Runtime Systems
+## ⚡ Flagship Runtime Systems
 
 | System | Focus | Runtime |
 |---|---|---|
@@ -141,7 +141,6 @@ This work explores:
 <p align="center">
   <img src="assets/XAIPT_Vault.gif" width="96%" />
 </p>
-
 
 ---
 ## 🧩 Flagship Repositories
