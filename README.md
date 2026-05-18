@@ -137,9 +137,32 @@ This work explores:
 </p>
 
 ---
+## 🔐 XAIPT Runtime Governance Surface
+
+<p align="center">
+
+🎬 Runtime Experience Engine  
+https://raajmandale.github.io/XAIPT-GUARD/public-demo/cinematic/runtime-experience-engine.html
+
+</p>
 
 <p align="center">
   <img src="assets/XAIPT_Vault.gif" width="96%" />
+</p>
+
+---
+
+## 🧬 XLifelineAI — Continuity Runtime
+
+<p align="center">
+
+🧬 Interactive Runtime Demonstration  
+https://raajmandale.github.io/XLifelineAI/
+
+</p>
+
+<p align="center">
+  <img src="docs/xlifeline.png" width="88%" />
 </p>
 
 ---
