@@ -23,6 +23,30 @@ Pune, India • Eranest Technoware Pvt Ltd
 
 ---
 
+## 🌐 Runtime Civilization Surface
+
+<p align="center">
+
+🔗 <a href="https://raajmandale.in">Founder Website</a> •
+💻 <a href="https://github.com/raajmandale">GitHub Root</a> •
+🛡️ <a href="https://xpadi.com/proofcheck/">XPADI ProofCheck™</a> •
+⚡ <a href="https://github.com/raajmandale/mandale-os">Mandale-OS</a> •
+🔐 <a href="https://github.com/raajmandale/XAIPT-GUARD">XAIPT-GUARD™</a> •
+🧬 <a href="https://raajmandale.github.io/XLifelineAI/">XLifelineAI Demo</a>
+
+</p>
+
+<p align="center">
+
+📄 <a href="https://orcid.org/0009-0005-9810-1655">ORCID</a> •
+🌍 <a href="https://www.wikidata.org/wiki/Q139570902">Wikidata</a> •
+📚 <a href="https://openalex.org/A5127026877">OpenAlex</a> •
+🧾 <a href="https://zenodo.org/communities/qbaix">Zenodo Research</a>
+
+</p>
+
+---
+
 ## 🧭 System Architecture
 
 <p align="center">
@@ -67,23 +91,6 @@ This work explores:
 
 ---
 
-## 🌐 Runtime Civilization Surface
-
-| Surface | Link |
-|---|---|
-| 🧠 Founder Website | https://raajmandale.in |
-| 💻 GitHub Root | https://github.com/raajmandale |
-| ⚡ Mandale-OS Runtime Surface | https://github.com/raajmandale/mandale-os |
-| 🛡️ XPADI ProofCheck™ | https://xpadi.com/proofcheck/ |
-| 🧬 XLifelineAI Live Demo | https://raajmandale.github.io/XLifelineAI/ |
-| 🔐 XAIPT Runtime Surface | https://github.com/raajmandale/XAIPT-GUARD |
-| 🧾 ORCID Identity | https://orcid.org/0009-0005-9810-1655 |
-| 🌍 Wikidata | https://www.wikidata.org/wiki/Q139570902 |
-| 📚 OpenAlex | https://openalex.org/A5127026877 |
-| 📄 Zenodo Research | https://zenodo.org/communities/qbaix |
-
----
-
 ## 🧾 Research Identity
 
 **Name:** Raaj Mandale  
@@ -115,14 +122,14 @@ This work explores:
 
 ---
 
-## 🚀 Flagship Systems
+### ⚡ Flagship Runtime Systems
 
-| System | Focus | Runtime |
-|--------|-------|-------|
-| XPADI Shield™ | Survivability + Recovery Intelligence | Repo + DOI |
-| Mandale-OS Runtime | Execution Intelligence + Proof Runtime | Repo + DOI |
-| XAIPT-GUARD™ | Human-Centered Execution Governance | Runtime Surface |
-| XLifelineAI | Self-Healing AI Memory Runtime | Live Demo |
+| System | Runtime |
+|--------|-------|
+| 🛡️ XPADI Shield™ | Repo + DOI |
+| ⚡ Mandale-OS Runtime | Repo + DOI |
+| 🔐 XAIPT-GUARD™ | Governance Runtime |
+| 🧬 XLifelineAI | Live Runtime Demo |
 
 ---
 
@@ -140,10 +147,10 @@ This work explores:
 
 ## 🧩 Flagship Repositories
 
-### ⚡ Core Runtime Layer
+### ⚡ Core Runtime Civilization Layer
 
-🚀 XPADI Shield™  
-https://github.com/raajmandale/XPADI_Proof_Engine_V1
+🚀 XPADI-SGDS™  
+https://github.com/raajmandale/XPADI-SGDS
 
 ⚙️ Mandale-OS Runtime  
 https://github.com/raajmandale/mandale-os
@@ -151,37 +158,43 @@ https://github.com/raajmandale/mandale-os
 🧠 M-OS Execution Reactor  
 https://github.com/raajmandale/mos-mee-execution-reactor
 
-🔐 XAIPT-GUARD™  
-https://github.com/raajmandale/XAIPT-GUARD
+🔐 XAIPT-ROOT™  
+https://github.com/raajmandale/XAIPT
 
 🧬 XLifelineAI  
 https://github.com/raajmandale/XLifelineAI
 
 ---
 
-### 🧪 Runtime Research Layer
+### 🧪 Runtime Research + Experimental Layer
 
-📡 CRS-LM  
-https://github.com/raajmandale/mos-parameter-golf/tree/main/crs-lm
+🛡️ XPADI Proof Engine  
+https://github.com/raajmandale/XPADI_Proof_Engine_V1
 
-⚡ M-OS Runtime Experiments  
-https://github.com/raajmandale/mos-runtime
+⚡ XPADI-ProofCheck  
+https://github.com/raajmandale/XPADI-ProofCheck
 
 🧠 DFG Runtime Lab  
 https://github.com/raajmandale/dfg-demo-lab
 
-🧩 Parameter Golf Research  
+⚙️ M-OS Parameter Golf  
 https://github.com/raajmandale/mos-parameter-golf
+
+🔐 XAIPT-GUARD™  
+https://github.com/raajmandale/XAIPT-GUARD
+
+📡 CRS-LM  
+https://github.com/raajmandale/mos-parameter-golf/tree/main/crs-lm
 
 ---
 
-## 🎥 Live Runtime Demonstrations
+### 🎥 Live Runtime Demonstrations
 
 | Demo | Link |
 |---|---|
-| 🧠 XLifelineAI Runtime Demo | https://raajmandale.github.io/XLifelineAI/ |
-| ⚡ Mandale-OS Runtime Surface | https://github.com/raajmandale/mandale-os |
+| 🧬 XLifelineAI Runtime Demo | https://raajmandale.github.io/XLifelineAI/ |
 | 🛡️ XPADI ProofCheck™ | https://xpadi.com/proofcheck/ |
+| ⚡ Mandale-OS Runtime Surface | https://github.com/raajmandale/mandale-os |
 | 🔐 XAIPT-GUARD Runtime Surface | https://github.com/raajmandale/XAIPT-GUARD |
 
 ---
@@ -222,15 +235,6 @@ https://www.amazon.in/dp/B0GX3N1TG9
 
 Website  
 https://raajmandale.in/mahira-x.html  
-
----
-
-## 🌍 External References
-
-- Zenodo: https://zenodo.org/records/19500143  
-- ORCID: https://orcid.org/0009-0005-9810-1655  
-- Wikidata: https://www.wikidata.org/wiki/Q139570902  
-- OpenAlex: https://openalex.org/A5127026877  
 
 ---
 
