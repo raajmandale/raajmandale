@@ -5,12 +5,13 @@
 </p>
 
 <h3 align="center">
-Founder building systems across AI compute, execution memory, and data survivability.
+Founder building systems across AI compute, execution memory, survivability, governance, and proof systems.
 </h3>
 
 <p align="center">
 Pune, India • Eranest Technoware Pvt Ltd
 </p>
+
 <p align="center">
 
 ![Research](https://img.shields.io/badge/Research-Active-blue)
@@ -25,25 +26,26 @@ Pune, India • Eranest Technoware Pvt Ltd
 ## 🧭 System Architecture
 
 <p align="center">
-  <img src="docs/system-map.svg" width="100%" />
+  <img src="docs/mandale_ecosystem.gif" width="100%" />
 </p>
 
 ---
 
 ## ⚡ System Overview
 
-A unified architecture composed of three core systems:
+A unified architecture composed of core runtime systems:
 
 - **QBAIX** → AI Compute Infrastructure Layer  
 - **M-OS** → Pattern-Based Execution Intelligence  
-- **XPADI** → Survivability-Governed Data System  
+- **XPADI** → Survivability-Governed Data Systems  
+- **XAIPT** → Governance + Protected Execution Runtime  
 
 Together:
 
-> Compute → Execution → Survivability → Proof
+> Compute → Execution → Survivability → Governance → Proof
 
-This is not a collection of projects.  
-It is a **cohesive system stack for next-generation computing environments**.
+This is not a collection of disconnected projects.  
+It is a cohesive runtime ecosystem for next-generation computing environments.
 
 ---
 
@@ -52,34 +54,33 @@ It is a **cohesive system stack for next-generation computing environments**.
 Execution does not always need to begin from zero.
 
 Systems can:
+
 - Detect patterns  
 - Reuse prior execution  
 - Survive failures  
+- Protect irreversible actions  
 - Prove correctness  
 
 This work explores:
 
-> **Reusable, survivable, and verifiable execution systems**
+> **Reusable, survivable, governable, and verifiable execution systems**
 
 ---
 
-## 🌐 Canonical Profile
+## 🌐 Runtime Civilization Surface
 
-https://raajmandale.in/raaj-mandale.html
-
-Official public profile connecting projects, publications, research identity, and proof artifacts.
-
----
-
-## 🔗 Quick Links
-
-| Resource | Link |
-|---------|------|
-| Website | https://raajmandale.in |
-| GitHub | https://github.com/raajmandale |
-| ORCID | https://orcid.org/0009-0005-9810-1655 |
-| Wikidata | https://www.wikidata.org/wiki/Q139570902 |
-| OpenAlex | https://openalex.org/A5127026877 |
+| Surface | Link |
+|---|---|
+| 🧠 Founder Website | https://raajmandale.in |
+| 💻 GitHub Root | https://github.com/raajmandale |
+| ⚡ Mandale-OS Runtime Surface | https://github.com/raajmandale/mandale-os |
+| 🛡️ XPADI ProofCheck™ | https://xpadi.com/proofcheck/ |
+| 🧬 XLifelineAI Live Demo | https://raajmandale.github.io/XLifelineAI/ |
+| 🔐 XAIPT Runtime Surface | https://github.com/raajmandale/XAIPT-GUARD |
+| 🧾 ORCID Identity | https://orcid.org/0009-0005-9810-1655 |
+| 🌍 Wikidata | https://www.wikidata.org/wiki/Q139570902 |
+| 📚 OpenAlex | https://openalex.org/A5127026877 |
+| 📄 Zenodo Research | https://zenodo.org/communities/qbaix |
 
 ---
 
@@ -99,6 +100,8 @@ Official public profile connecting projects, publications, research identity, an
 | Mandale-OS (M-OS) | Pattern Execution Systems | https://doi.org/10.5281/zenodo.19793309 |
 | XPADI — SGDS | Data Survivability Systems | https://doi.org/10.5281/zenodo.19500143 |
 
+---
+
 ## 📚 Additional Publications
 
 - SSRN Research Paper  
@@ -107,18 +110,19 @@ Official public profile connecting projects, publications, research identity, an
 ---
 
 <p align="center">
-<img src="assets/xpadi-banner.svg" width="92%">
+<img src="assets/xpadi-hero.svg" width="92%">
 </p>
 
 ---
 
 ## 🚀 Flagship Systems
 
-| System | Focus | Proof |
+| System | Focus | Runtime |
 |--------|-------|-------|
-| XPADI Shield | Data Survivability | Repo + DOI |
-| M-OS Execution Reactor | Execution Intelligence | Repo + DOI |
-| XLifelineAI | Memory Resilience | Repo |
+| XPADI Shield™ | Survivability + Recovery Intelligence | Repo + DOI |
+| Mandale-OS Runtime | Execution Intelligence + Proof Runtime | Repo + DOI |
+| XAIPT-GUARD™ | Human-Centered Execution Governance | Runtime Surface |
+| XLifelineAI | Self-Healing AI Memory Runtime | Live Demo |
 
 ---
 
@@ -128,21 +132,57 @@ Official public profile connecting projects, publications, research identity, an
 
 ---
 
+<p align="center">
+<img src="assets/XAIPT_Vault.gif" width="92%">
+</p>
+
+---
+
 ## 🧩 Flagship Repositories
 
-🚀 XPADI Shield  
+### ⚡ Core Runtime Layer
+
+🚀 XPADI Shield™  
 https://github.com/raajmandale/XPADI_Proof_Engine_V1
 
-⚙️ M-OS Execution Reactor  
+⚙️ Mandale-OS Runtime  
+https://github.com/raajmandale/mandale-os
+
+🧠 M-OS Execution Reactor  
 https://github.com/raajmandale/mos-mee-execution-reactor
 
-🧠 XLifelineAI  
+🔐 XAIPT-GUARD™  
+https://github.com/raajmandale/XAIPT-GUARD
+
+🧬 XLifelineAI  
 https://github.com/raajmandale/XLifelineAI
 
-**Additional:**
-- https://github.com/raajmandale/mos-runtime  
-- https://github.com/raajmandale/mos-parameter-golf  
-- https://github.com/raajmandale/dfg-demo-lab  
+---
+
+### 🧪 Runtime Research Layer
+
+📡 CRS-LM  
+https://github.com/raajmandale/mos-parameter-golf/tree/main/crs-lm
+
+⚡ M-OS Runtime Experiments  
+https://github.com/raajmandale/mos-runtime
+
+🧠 DFG Runtime Lab  
+https://github.com/raajmandale/dfg-demo-lab
+
+🧩 Parameter Golf Research  
+https://github.com/raajmandale/mos-parameter-golf
+
+---
+
+## 🎥 Live Runtime Demonstrations
+
+| Demo | Link |
+|---|---|
+| 🧠 XLifelineAI Runtime Demo | https://raajmandale.github.io/XLifelineAI/ |
+| ⚡ Mandale-OS Runtime Surface | https://github.com/raajmandale/mandale-os |
+| 🛡️ XPADI ProofCheck™ | https://xpadi.com/proofcheck/ |
+| 🔐 XAIPT-GUARD Runtime Surface | https://github.com/raajmandale/XAIPT-GUARD |
 
 ---
 
@@ -150,8 +190,9 @@ https://github.com/raajmandale/XLifelineAI
 
 - Pattern-based execution memory systems (Mandale-OS)  
 - Survivability-governed data systems (XPADI)  
-- Deterministic Fragment Graph (DFG)  
-- AI memory resilience experiments (XLifelineAI)  
+- Human-centered execution governance (XAIPT)  
+- Deterministic Fragment Graph Runtime (DFG)  
+- AI memory resilience systems (XLifelineAI)  
 
 ---
 
@@ -159,6 +200,7 @@ https://github.com/raajmandale/XLifelineAI
 
 - XPADI Shield™  
 - Mandale-OS (M-OS)  
+- XAIPT-GUARD™  
 - QBAIX Hybrid Compute Systems  
 - Mahira-X (research-fiction publication)  
 
@@ -195,16 +237,21 @@ https://raajmandale.in/mahira-x.html
 ## 📊 GitHub Metrics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=raajmandale&theme=github" width="92%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=raajmandale&theme=github_dark" width="96%" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=raajmandale&theme=github" width="45%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=raajmandale&theme=github" width="45%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=raajmandale&theme=github_dark" width="47%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=raajmandale&theme=github_dark" width="47%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=raajmandale&theme=github_dark" width="47%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=raajmandale&theme=github_dark&utcOffset=5.5" width="47%" />
 </p>
 
 ---
 
 <p align="center">
-Compute • Execution • Survivability • Proof
+Compute • Execution • Survivability • Governance • Proof
 </p>
