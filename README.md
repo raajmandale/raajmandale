@@ -50,7 +50,7 @@ Pune, India • Eranest Technoware Pvt Ltd
 ## 🧭 System Architecture
 
 <p align="center">
-  <img src="docs/mandale_ecosystem.gif" width="100%" />
+  <img src="docs/mandale_ecosystem.gif" width="96%" />
 </p>
 
 ---
@@ -117,80 +117,61 @@ This work explores:
 ---
 
 <p align="center">
-<img src="assets/xpadi-hero.svg" width="92%">
+  <img src="assets/xpadi-hero.svg" width="96%" />
 </p>
 
 ---
-
 ### ⚡ Flagship Runtime Systems
 
-| System | Runtime |
-|--------|-------|
-| 🛡️ XPADI Shield™ | Repo + DOI |
-| ⚡ Mandale-OS Runtime | Repo + DOI |
-| 🔐 XAIPT-GUARD™ | Governance Runtime |
-| 🧬 XLifelineAI | Live Runtime Demo |
+| System | Focus | Runtime |
+|---|---|---|
+| 🚀 XPADI-SGDS™ | Survivability + Recovery Intelligence | Proof + Runtime |
+| ⚡ Mandale-OS | Execution Intelligence + Runtime Memory | Runtime Core |
+| 🔐 XAIPT™ | Governance + Protected Execution | Authority Runtime |
+| 🧬 XLifelineAI | AI Memory Resilience | Self-Healing Runtime |
 
 ---
 
 <p align="center">
-<img src="assets/mos_animated.gif" width="92%">
+  <img src="assets/mos_animated.gif" width="96%" />
 </p>
 
 ---
 
 <p align="center">
-<img src="assets/XAIPT_Vault.gif" width="92%">
+  <img src="assets/XAIPT_Vault.gif" width="96%" />
 </p>
 
----
 
+---
 ## 🧩 Flagship Repositories
 
 ### ⚡ Core Runtime Civilization Layer
 
-🚀 XPADI-SGDS™  
-https://github.com/raajmandale/XPADI-SGDS
-
-⚙️ Mandale-OS Runtime  
-https://github.com/raajmandale/mandale-os
-
-🧠 M-OS Execution Reactor  
-https://github.com/raajmandale/mos-mee-execution-reactor
-
-🔐 XAIPT-ROOT™  
-https://github.com/raajmandale/XAIPT
-
-🧬 XLifelineAI  
-https://github.com/raajmandale/XLifelineAI
+| System | Repository |
+|---|---|
+| 🚀 XPADI-SGDS™ | https://github.com/raajmandale/XPADI-SGDS |
+| ⚡ Mandale-OS Runtime | https://github.com/raajmandale/mandale-os |
+| 🧠 M-OS Execution Reactor | https://github.com/raajmandale/mos-mee-execution-reactor |
+| 🔐 XAIPT-ROOT™ | https://github.com/raajmandale/XAIPT |
+| 🧬 XLifelineAI | https://github.com/raajmandale/XLifelineAI |
 
 ---
-
 ### 🧪 Runtime Research + Experimental Layer
 
-🛡️ XPADI Proof Engine  
-https://github.com/raajmandale/XPADI_Proof_Engine_V1
-
-⚡ XPADI-ProofCheck  
-https://github.com/raajmandale/XPADI-ProofCheck
-
-🧠 DFG Runtime Lab  
-https://github.com/raajmandale/dfg-demo-lab
-
-⚙️ M-OS Parameter Golf  
-https://github.com/raajmandale/mos-parameter-golf
-
-🔐 XAIPT-GUARD™  
-https://github.com/raajmandale/XAIPT-GUARD
-
-📡 CRS-LM  
-https://github.com/raajmandale/mos-parameter-golf/tree/main/crs-lm
+| Runtime | Repository |
+|---|---|
+| 🛡️ XPADI Proof Engine | https://github.com/raajmandale/XPADI_Proof_Engine_V1 |
+| ⚡ XPADI-ProofCheck | https://github.com/raajmandale/XPADI-ProofCheck |
+| 🧠 DFG Runtime Lab | https://github.com/raajmandale/dfg-demo-lab |
+| ⚙️ M-OS Parameter Golf | https://github.com/raajmandale/mos-parameter-golf |
+| 🔐 XAIPT-GUARD™ | https://github.com/raajmandale/XAIPT-GUARD |
+| 📡 CRS-LM | https://github.com/raajmandale/mos-parameter-golf/tree/main/crs-lm |
 
 ---
-
 ### 🎥 Live Runtime Demonstrations
 
-| Demo | Link |
+| Demo Surface | Link |
 |---|---|
 | 🧬 XLifelineAI Runtime Demo | https://raajmandale.github.io/XLifelineAI/ |
 | 🛡️ XPADI ProofCheck™ | https://xpadi.com/proofcheck/ |
@@ -198,7 +179,6 @@ https://github.com/raajmandale/mos-parameter-golf/tree/main/crs-lm
 | 🔐 XAIPT-GUARD Runtime Surface | https://github.com/raajmandale/XAIPT-GUARD |
 
 ---
-
 ## 🧠 Selected Contributions
 
 - Pattern-based execution memory systems (Mandale-OS)  
