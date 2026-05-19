@@ -147,7 +147,7 @@ https://raajmandale.github.io/XAIPT-GUARD/public-demo/cinematic/runtime-experien
 </p>
 
 <p align="center">
-  <img src="assets/XAIPT_Vault.gif" width="96%" />
+  <img src="assets/xaipt-valut.gif" width="96%" />
 </p>
 
 ---
