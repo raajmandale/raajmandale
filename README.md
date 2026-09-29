@@ -47,6 +47,28 @@ Pune, India • Eranest Technoware Pvt Ltd
 
 ---
 
+## 🧩 Working Software — XMECK-LAB
+
+**XMECK-LAB** is the public software/startup organization for the current working-product line.
+
+| Product | Role | Public repository |
+|---|---|---|
+| **XRECONY** | Data reconstruction / structural understanding | https://github.com/XMECK-LAB/XRECONY |
+| **TRANSCRIPT** | Governed execution infrastructure | Public product repository pending |
+| **KAVACH** | Trust / protection substrate under TRANSCRIPT | Public product packaging pending |
+| **XMECK-AI** | Private / local intelligence workspace | Public product repository pending |
+
+**Identity model**
+
+- **Raaj Mandale** → creator / founder / systems architect / independent research identity
+- **XMECK-LAB** → public software and product organization
+- **XPADI-SGDS / XLP / QBAIX / related repos** → research and architecture lineage
+- **XRECONY / TRANSCRIPT / XMECK-AI** → working-software product line as each public package is released
+
+Current working release: **[XRECONY](https://github.com/XMECK-LAB/XRECONY)**
+
+---
+
 ## 🧭 System Architecture
 
 <p align="center">
